@@ -1,0 +1,216 @@
+{
+  "id": "cg_scheme_008",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "transgender_support",
+    "priority": 3,
+    "last_updated": "2026-01-01",
+    "source": "CG Social Welfare Department"
+  },
+
+  "scheme_name": {
+    "hi": "उभयलिंगी व्यक्तियों को टी.जी. कार्ड जारी करना",
+    "en": "Issuance of TG Card for Transgender Persons",
+    "hinglish": "Transgender (TG) Card Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "उभयलिंगी व्यक्तियों को समाज की मुख्यधारा से जोड़ना एवं उन्हें शासकीय योजनाओं का लाभ दिलाना।",
+      "en": "To integrate transgender persons into mainstream society and provide access to government schemes.",
+      "hinglish": "transgender log ko society me include karna aur govt schemes ka benefit dena"
+    },
+
+    "benefits": {
+      "type": "service",
+      "amount": 0,
+      "text": {
+        "hi": "इस योजना के तहत टी.जी. कार्ड जारी किया जाता है जिससे शासकीय योजनाओं का लाभ प्राप्त किया जा सकता है।",
+        "en": "A TG card is issued which helps in accessing various government schemes.",
+        "hinglish": "is scheme me TG card milta hai jisse govt schemes ka benefit milta hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "8वीं / 10वीं प्रमाण पत्र",
+        "en": "8th / 10th certificate",
+        "hinglish": "8th ya 10th certificate"
+      },
+      {
+        "hi": "शपथ पत्र",
+        "en": "Affidavit",
+        "hinglish": "affidavit"
+      },
+      {
+        "hi": "02 पासपोर्ट साइज फोटो",
+        "en": "2 passport size photos",
+        "hinglish": "2 passport photo"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन पत्र भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "आवश्यक दस्तावेजों के साथ आवेदन जमा करें",
+          "en": "Submit application with required documents",
+          "hinglish": "documents ke sath submit karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "कार्यालय संयुक्त संचालक समाज कल्याण, जिला बिलासपुर",
+          "en": "Office of Joint Director, Social Welfare, Bilaspur",
+          "hinglish": "samaj kalyan office bilaspur"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "आवेदन कार्यालय में जमा किया जाता है",
+        "en": "Application is submitted at the office",
+        "hinglish": "office me submit hota hai"
+      },
+      {
+        "hi": "सत्यापन के बाद टी.जी. कार्ड जारी किया जाता है",
+        "en": "TG card is issued after verification",
+        "hinglish": "verification ke baad TG card milta hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "इस योजना में क्या लाभ मिलता है?",
+          "en": "What benefit is provided?",
+          "hinglish": "kya benefit milta hai"
+        },
+        "answer": {
+          "hi": "इस योजना में टी.जी. कार्ड दिया जाता है जिससे अन्य सरकारी योजनाओं का लाभ मिल सकता है।",
+          "en": "A TG card is issued to access other government schemes.",
+          "hinglish": "TG card milta hai jisse govt schemes ka benefit milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "क्या इसमें पैसा मिलता है?",
+          "en": "Is there any monetary benefit?",
+          "hinglish": "kya paisa milta hai"
+        },
+        "answer": {
+          "hi": "नहीं, इस योजना में केवल टी.जी. कार्ड जारी किया जाता है, कोई सीधी आर्थिक सहायता नहीं दी जाती।",
+          "en": "No, this scheme provides only a TG card, no direct financial benefit.",
+          "hinglish": "nahi, isme paisa nahi milta sirf TG card milta hai"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में उभयलिंगी व्यक्तियों को टी.जी. कार्ड जारी किया जाता है जिससे वे शासकीय योजनाओं का लाभ ले सकते हैं।",
+      "en": "This scheme provides a TG card to transgender persons to access government schemes.",
+      "hinglish": "is scheme me TG card milta hai jisse govt schemes ka benefit milta hai"
+    }
+  },
+
+  "nlp": {
+
+    "scheme_identity_keywords": [
+        "टीजी कार्ड",
+        "उभयलिंगी कार्ड",
+        "ट्रांसजेंडर कार्ड",
+        "थर्ड जेंडर कार्ड",
+        "पहचान पत्र ट्रांसजेंडर",
+        "tg card cg",
+        "transgender card cg",
+        "third gender id cg",
+        "tg registration cg",
+        "tg id apply cg"
+    ],
+
+    "keywords": [
+      "tg card",
+      "transgender card",
+      "third gender card",
+      "उभयलिंगी कार्ड",
+      "transgender yojana cg",
+      "tg card kaise banega",
+      "card banana hai",
+      "identity card transgender",
+      "tg registration cg",
+      "transgender scheme"
+    ],
+
+    "synonyms": {
+      "transgender": ["tg", "third gender", "ubhaylingi"],
+      "card": ["id", "identity", "certificate"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kya milta hai", "क्या मिलता है"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कौन से कागज"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "money_check",
+        "keywords": ["paisa milta hai", "क्या पैसा मिलता है"],
+        "response": "content.faq[1].answer"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

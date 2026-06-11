@@ -1,0 +1,252 @@
+{
+  "id": "cg_scheme_004",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "central",
+    "department": "Ministry of Rural Development + CG Social Welfare",
+    "category": "old_age_pension",
+    "priority": 1,
+    "last_updated": "2026-01-01",
+    "source": "NSAP + CG Social Welfare"
+  },
+
+  "scheme_name": {
+    "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना",
+    "en": "Indira Gandhi National Old Age Pension Scheme",
+    "hinglish": "Indira Gandhi National Vridhavastha Pension Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाले वृद्धजनों को सम्मानपूर्वक जीवन-यापन हेतु आर्थिक सहायता प्रदान करना।",
+      "en": "To provide financial assistance to elderly persons living below the poverty line for a dignified life.",
+      "hinglish": "BPL vridh log ko financial help dena taki wo respect ke saath jee sake"
+    },
+
+    "benefits": {
+      "type": "monthly",
+      "amount": {
+        "60_to_79": 500,
+        "80_plus": 650
+      },
+      "text": {
+        "hi": "60-79 वर्ष के लिए ₹500 और 80 वर्ष या अधिक के लिए ₹650 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500/month for age 60-79 and ₹650/month for 80+.",
+        "hinglish": "60-79 ke liye ₹500 aur 80+ ke liye ₹650 pension milta hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "bpl_condition",
+          "text": {
+            "hi": "गरीबी रेखा (BPL) सर्वे सूची में नाम होना चाहिए",
+            "en": "Must be listed under BPL survey",
+            "hinglish": "BPL list me naam hona chahiye"
+          }
+        },
+        {
+          "id": "age",
+          "text": {
+            "hi": "60 वर्ष या उससे अधिक आयु के वृद्धजन पात्र हैं",
+            "en": "Persons aged 60 years or above are eligible",
+            "hinglish": "60+ age ke log eligible hain"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "सर्वे सूची प्रमाण पत्र",
+        "en": "Survey list certificate",
+        "hinglish": "survey certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक पासबुक की कॉपी",
+        "en": "Bank passbook copy",
+        "hinglish": "bank passbook copy"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "मोबाइल नंबर",
+        "en": "Mobile number",
+        "hinglish": "mobile number"
+      },
+      {
+        "hi": "निर्धारित आवेदन पत्र",
+        "en": "Prescribed application form",
+        "hinglish": "application form"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन फॉर्म भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+          "en": "Submit application at Gram Panchayat (rural)",
+          "hinglish": "gaon me gram panchayat me jama karo"
+        },
+        {
+          "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+          "en": "Submit through councillor in municipal office (urban)",
+          "hinglish": "city me nagar nigam me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "ग्राम पंचायत",
+          "en": "Gram Panchayat",
+          "hinglish": "gram panchayat"
+        },
+        {
+          "hi": "जनपद पंचायत",
+          "en": "Janpad Panchayat",
+          "hinglish": "janpad panchayat"
+        },
+        {
+          "hi": "नगर निगम / नगर पालिका / नगर पंचायत",
+          "en": "Municipal Office",
+          "hinglish": "nagar nigam"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+        "en": "Gram Panchayat forwards application to Janpad Panchayat",
+        "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+      },
+      {
+        "hi": "शहरी क्षेत्रों में आवेदन नगर निगम / नगर पालिका में जमा किया जाता है",
+        "en": "In urban areas, application is submitted to municipal office",
+        "hinglish": "city me nagar nigam me submit hota hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "कितनी पेंशन मिलती है?",
+          "en": "How much pension is given?",
+          "hinglish": "kitna pension milta hai"
+        },
+        "answer": {
+          "hi": "60-79 वर्ष के लिए ₹500 और 80+ के लिए ₹650 प्रति माह पेंशन दी जाती है।",
+          "en": "₹500/month (60-79) and ₹650/month (80+).",
+          "hinglish": "60-79 ke liye ₹500 aur 80+ ke liye ₹650 milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "कौन पात्र है?",
+          "en": "Who is eligible?",
+          "hinglish": "kaun eligible hai"
+        },
+        "answer": {
+          "hi": "60 वर्ष या उससे अधिक आयु के BPL वृद्धजन पात्र हैं।",
+          "en": "BPL elderly aged 60+ are eligible.",
+          "hinglish": "60+ BPL vridh log eligible hain"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में 60+ वृद्धजनों को ₹500 और 80+ को ₹650 प्रति माह पेंशन दी जाती है।",
+      "en": "₹500/month (60-79) and ₹650/month (80+) pension is provided.",
+      "hinglish": "60+ ko ₹500 aur 80+ ko ₹650 pension milta hai"
+    }
+  },
+
+  "nlp": {
+    "scheme_identity_keywords": [
+      "इंदिरा गांधी वृद्धावस्था पेंशन",
+      "वृद्धावस्था पेंशन योजना",
+      "बुजुर्ग पेंशन योजना",
+      "60+ पेंशन",
+      "80+ पेंशन 650",
+      "indira gandhi old age pension",
+      "vridh pension yojana",
+      "old age pension india",
+      "budha pension cg",
+      "old age pansan"
+    ],
+
+    "keywords": [
+      "वृद्धावस्था पेंशन",
+      "old age pension cg",
+      "vridh pension cg",
+      "buzurg pension",
+      "500 pension cg",
+      "650 pension cg",
+      "vridh pension kaise milega",
+      "old age scheme cg"
+    ],
+
+    "synonyms": {
+      "old": ["vridh", "buzurg", "aged"],
+      "pension": ["sahayata", "paise", "arthik madad"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna paisa", "कितनी पेंशन"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

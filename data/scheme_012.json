@@ -1,0 +1,234 @@
+{
+  "id": "cg_scheme_012",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "divyang_empowerment",
+    "priority": 2,
+    "last_updated": "2026-01-01",
+    "source": "CG Social Welfare Department"
+  },
+
+  "scheme_name": {
+    "hi": "दिव्यांगजन सिविल सेवा प्रोत्साहन योजना",
+    "en": "Divyang Civil Services Incentive Scheme",
+    "hinglish": "Divyang Civil Services Protsahan Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "दिव्यांग विद्यार्थियों को सिविल सेवा परीक्षाओं में सफलता प्राप्त करने पर प्रोत्साहन राशि प्रदान करना।",
+      "en": "To provide incentive support to disabled candidates who clear civil service examinations.",
+      "hinglish": "divyang students ko civil services clear karne par reward dena"
+    },
+
+    "benefits": {
+      "type": "one_time",
+      "amount": null,
+      "text": {
+        "hi": "योजना के अनुसार प्रोत्साहन राशि प्रदान की जाती है।",
+        "en": "Incentive amount is provided as per scheme rules.",
+        "hinglish": "scheme ke hisaab se incentive amount milta hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "disability",
+          "text": {
+            "hi": "40% या उससे अधिक दिव्यांगता का प्रमाण पत्र होना चाहिए",
+            "en": "Must have 40% or more disability certificate",
+            "hinglish": "40%+ divyang certificate hona chahiye"
+          }
+        },
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "exam",
+          "text": {
+            "hi": "संघ लोक सेवा आयोग या छत्तीसगढ़ लोक सेवा आयोग परीक्षा में उत्तीर्ण होना चाहिए",
+            "en": "Must have cleared UPSC or CGPSC exam",
+            "hinglish": "UPSC ya CGPSC clear kiya hona chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "दिव्यांगता प्रमाण पत्र",
+        "en": "Disability certificate",
+        "hinglish": "divyang certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक खाता विवरण",
+        "en": "Bank account details",
+        "hinglish": "bank account"
+      },
+      {
+        "hi": "सिविल सेवा परीक्षा उत्तीर्ण प्रमाण पत्र",
+        "en": "Civil services exam pass certificate",
+        "hinglish": "exam pass certificate"
+      },
+      {
+        "hi": "यूनीक आईडी (UDID)",
+        "en": "UDID card",
+        "hinglish": "udid card"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित आवेदन पत्र भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "समाज कल्याण विभाग कार्यालय में जमा करें",
+          "en": "Submit at Social Welfare Office",
+          "hinglish": "social welfare office me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "कार्यालय संयुक्त संचालक समाज कल्याण बिलासपुर",
+          "en": "Office of Joint Director Social Welfare Bilaspur",
+          "hinglish": "samaj kalyan office bilaspur"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "आवेदन जमा होने के बाद सत्यापन किया जाता है",
+        "en": "Application is verified after submission",
+        "hinglish": "application verify hota hai"
+      },
+      {
+        "hi": "सत्यापन के बाद प्रोत्साहन राशि प्रदान की जाती है",
+        "en": "After verification, incentive is provided",
+        "hinglish": "verify hone ke baad paisa milta hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "किस परीक्षा पर लाभ मिलेगा?",
+          "en": "Which exams are covered?",
+          "hinglish": "kaunsi exam par benefit milega"
+        },
+        "answer": {
+          "hi": "UPSC और CGPSC परीक्षा में सफलता पर लाभ मिलता है।",
+          "en": "Benefit is given for clearing UPSC or CGPSC exams.",
+          "hinglish": "UPSC ya CGPSC clear karne par milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "क्या यह योजना ऑनलाइन है?",
+          "en": "Is this scheme online?",
+          "hinglish": "kya ye online hai"
+        },
+        "answer": {
+          "hi": "नहीं, यह योजना ऑफलाइन है।",
+          "en": "No, this scheme is offline.",
+          "hinglish": "nahi ye offline hai"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में सिविल सेवा परीक्षा पास करने वाले दिव्यांगों को प्रोत्साहन राशि दी जाती है।",
+      "en": "Disabled candidates who clear civil services exams get incentive support.",
+      "hinglish": "civil services clear karne wale divyang ko reward milta hai"
+    }
+  },
+
+  "scheme_identity_keywords": [
+    "divyang civil service yojana",
+    "cg civil service incentive",
+    "upsc pass divyang scheme",
+    "cgpsc pass reward",
+    "civil services incentive cg",
+
+    "दिव्यांग सिविल सेवा योजना",
+    "सीजी सिविल सेवा प्रोत्साहन",
+    "UPSC पास दिव्यांग योजना",
+    "CGPSC पास इनाम",
+    "दिव्यांग UPSC सहायता"
+  ],
+
+  "nlp": {
+    "keywords": [
+      "civil service divyang",
+      "upsc divyang yojana",
+      "cgpsc reward scheme",
+      "exam pass incentive",
+      "divyang exam reward",
+
+      "दिव्यांग सिविल सेवा",
+      "UPSC योजना",
+      "CGPSC प्रोत्साहन",
+      "परीक्षा पास इनाम",
+      "दिव्यांग प्रोत्साहन योजना"
+    ],
+
+    "synonyms": {
+      "divyang": ["viklang", "disabled", "handicap"],
+      "exam": ["pariksha", "test", "upsc", "cgpsc"],
+      "incentive": ["reward", "protsahan", "benefit"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna reward", "reward kya milega", "प्रोत्साहन कितना"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

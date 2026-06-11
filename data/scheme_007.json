@@ -1,0 +1,254 @@
+{
+  "id": "cg_scheme_007",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "central",
+    "department": "Social Welfare Department",
+    "category": "family_assistance",
+    "priority": 2,
+    "last_updated": "2026-01-01",
+    "source": "Ministry of Rural Development + CG Social Welfare"
+  },
+
+  "scheme_name": {
+    "hi": "राष्ट्रीय परिवार सहायता योजना",
+    "en": "National Family Benefit Scheme",
+    "hinglish": "Rashtriya Parivar Sahayata Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाले परिवार के मुखिया की मृत्यु होने पर परिवार को आर्थिक सहायता प्रदान करना।",
+      "en": "To provide financial assistance to BPL families on the death of the primary breadwinner.",
+      "hinglish": "BPL parivar ke mukhiya ki death hone par family ko financial help dena"
+    },
+
+    "benefits": {
+      "type": "one_time",
+      "amount": 20000,
+      "text": {
+        "hi": "₹20,000 की एकमुश्त सहायता राशि दी जाती है।",
+        "en": "A one-time financial assistance of ₹20,000 is provided.",
+        "hinglish": "₹20,000 ek baar me diya jata hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "bpl_condition",
+          "text": {
+            "hi": "परिवार का नाम गरीबी रेखा (BPL) सूची में होना चाहिए",
+            "en": "Family must be listed under BPL survey",
+            "hinglish": "family ka naam BPL list me hona chahiye"
+          }
+        },
+        {
+          "id": "age_condition",
+          "text": {
+            "hi": "मृतक की आयु 18 से 60 वर्ष के बीच होनी चाहिए",
+            "en": "Age of deceased must be between 18 and 60 years",
+            "hinglish": "marne wale ki age 18 se 60 ke beech honi chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "सर्वे सूची प्रमाण पत्र",
+        "en": "Survey list certificate",
+        "hinglish": "survey certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक पासबुक की छाया प्रति",
+        "en": "Bank passbook copy",
+        "hinglish": "bank passbook copy"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "मोबाइल नंबर",
+        "en": "Mobile number",
+        "hinglish": "mobile number"
+      },
+      {
+        "hi": "निर्धारित प्रारूप में आवेदन पत्र",
+        "en": "Prescribed application form",
+        "hinglish": "application form"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन पत्र भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+          "en": "Submit application at Gram Panchayat (rural areas)",
+          "hinglish": "gaon me gram panchayat me jama karo"
+        },
+        {
+          "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+          "en": "Submit through councillor in municipal office (urban areas)",
+          "hinglish": "city me nagar nigam me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "ग्राम पंचायत",
+          "en": "Gram Panchayat",
+          "hinglish": "gram panchayat"
+        },
+        {
+          "hi": "जनपद पंचायत",
+          "en": "Janpad Panchayat",
+          "hinglish": "janpad panchayat"
+        },
+        {
+          "hi": "नगर निगम / नगर पालिका / नगर पंचायत",
+          "en": "Municipal Office",
+          "hinglish": "nagar nigam"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+        "en": "Gram Panchayat forwards application to Janpad Panchayat",
+        "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+      },
+      {
+        "hi": "शहरी क्षेत्रों में आवेदन आयुक्त नगर निगम / मुख्य नगर पालिका अधिकारी के कार्यालय में प्रस्तुत किया जाता है",
+        "en": "In urban areas, application is submitted to municipal office",
+        "hinglish": "city me nagar nigam me submit hota hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "इस योजना में कितना पैसा मिलता है?",
+          "en": "How much benefit is provided?",
+          "hinglish": "kitna paisa milta hai"
+        },
+        "answer": {
+          "hi": "इस योजना में ₹20,000 की एकमुश्त सहायता राशि दी जाती है।",
+          "en": "₹20,000 is provided as a one-time benefit.",
+          "hinglish": "₹20,000 ek baar milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "यह सहायता कब मिलती है?",
+          "en": "When is the benefit given?",
+          "hinglish": "kab milta hai"
+        },
+        "answer": {
+          "hi": "परिवार के मुखिया की मृत्यु के बाद आवेदन करने पर सहायता दी जाती है।",
+          "en": "Benefit is given after the death of the family head upon application.",
+          "hinglish": "mukhiya ki death ke baad apply karne par milta hai"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में परिवार के मुखिया की मृत्यु पर ₹20,000 की एकमुश्त सहायता दी जाती है।",
+      "en": "₹20,000 is given to the family on the death of the breadwinner.",
+      "hinglish": "mukhiya ki death par ₹20,000 milta hai"
+    }
+  },
+
+  "nlp": {
+
+
+    "scheme_identity_keywords": [
+        "राष्ट्रीय परिवार सहायता योजना",
+        "परिवार सहायता योजना",
+        "मृत्यु सहायता योजना",
+        "20000 सहायता योजना",
+        "मुखिया मृत्यु सहायता",
+        "rashtriya parivar sahayata",
+        "family benefit scheme",
+        "death compensation scheme",
+        "parivar sahayata 20000",
+        "mrityu sahayata yojana"
+    ],
+
+    "keywords": [
+      "परिवार सहायता योजना",
+      "family benefit scheme",
+      "rashtriya parivar sahayata",
+      "death compensation scheme",
+      "20,000 sahayata",
+      "mukhiya death paisa",
+      "parivar sahayata cg",
+      "death benefit cg",
+      "parivar ko paisa milega",
+      "one time sahayata"
+    ],
+
+    "synonyms": {
+      "family": ["parivar", "ghar"],
+      "death": ["mrityu", "death", "mar gaya"],
+      "benefit": ["sahayata", "paise", "madad"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna paisa", "कितना पैसा"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

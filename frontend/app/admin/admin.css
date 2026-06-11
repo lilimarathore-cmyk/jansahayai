@@ -1,0 +1,140 @@
+/* frontend/app/admin/admin.css */
+/* Admin Panel Specific Styles */
+
+/* Dashboard Stats Cards */
+.stat-card {
+  background: var(--surface);
+  border-radius: 20px;
+  padding: 24px;
+  transition: all 0.3s ease;
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-primary);
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Scheme Table Row Animation */
+.scheme-row {
+  transition: all 0.2s ease;
+}
+
+.scheme-row:hover {
+  background: rgba(59, 130, 246, 0.05);
+  transform: scale(1.01);
+}
+
+/* Form Section Styling */
+.form-section {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid var(--border);
+}
+
+.form-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Array Item Animations */
+.array-item {
+  animation: slideInRight 0.2s ease-out;
+}
+
+.array-item-remove {
+  animation: fadeIn 0.2s ease-out;
+}
+
+/* Toast Notification */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  padding: 12px 20px;
+  background: var(--surface);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  border-left: 4px solid var(--success);
+  z-index: 1000;
+  animation: slideInRight 0.3s ease-out;
+}
+
+.toast.error {
+  border-left-color: var(--danger);
+}
+
+.toast.warning {
+  border-left-color: var(--warning);
+}
+
+/* Admin Sidebar Custom */
+.admin-sidebar-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.admin-sidebar-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--primary);
+  transform: scaleY(0);
+  transition: transform 0.2s ease;
+}
+
+.admin-sidebar-item.active::after {
+  transform: scaleY(1);
+}
+
+/* Data Table Responsive */
+@media (max-width: 768px) {
+  .data-table thead {
+    display: none;
+  }
+  
+  .data-table tr {
+    display: block;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px;
+  }
+  
+  .data-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 8px 0;
+  }
+  
+  .data-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    margin-right: 16px;
+  }
+}

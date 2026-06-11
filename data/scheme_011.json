@@ -1,0 +1,221 @@
+{
+  "id": "cg_scheme_011",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "divyang_education",
+    "priority": 2,
+    "last_updated": "2026-01-01",
+    "source": "Department of Social Welfare, Chhattisgarh"
+  },
+
+  "scheme_name": {
+    "hi": "दिव्यांग उच्च शिक्षा प्रोत्साहन योजना",
+    "en": "Higher Education Incentive Scheme for Disabled",
+    "hinglish": "Divyang Higher Education Protsahan Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "दिव्यांग विद्यार्थियों को उच्च शिक्षा के लिए प्रोत्साहन राशि प्रदान करना।",
+      "en": "To provide financial assistance to disabled students for higher education.",
+      "hinglish": "divyang students ko higher education ke liye financial help dena"
+    },
+
+    "benefits": {
+      "type": "scholarship",
+      "amount": null,
+      "text": {
+        "hi": "उच्च शिक्षा के लिए प्रोत्साहन राशि दी जाती है।",
+        "en": "Financial incentive is provided for higher education.",
+        "hinglish": "higher study ke liye paisa diya jata hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "disability",
+          "text": {
+            "hi": "40% या उससे अधिक दिव्यांगता प्रमाण पत्र होना चाहिए",
+            "en": "Must have 40% or more disability certificate",
+            "hinglish": "40% ya usse jyada disability certificate hona chahiye"
+          }
+        },
+        {
+          "id": "residence",
+          "text": {
+            "hi": "छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "education",
+          "text": {
+            "hi": "पिछली कक्षा में उत्तीर्ण होना चाहिए",
+            "en": "Must have passed previous class",
+            "hinglish": "last class pass hona chahiye"
+          }
+        },
+        {
+          "id": "study_status",
+          "text": {
+            "hi": "12वीं उत्तीर्ण करने के बाद नियमित उच्च शिक्षा में अध्ययनरत होना चाहिए",
+            "en": "Must be enrolled in higher education after passing 12th",
+            "hinglish": "12th ke baad higher study me admission hona chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "दिव्यांगता प्रमाण पत्र",
+        "en": "Disability certificate",
+        "hinglish": "divyang certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक खाता विवरण",
+        "en": "Bank account details",
+        "hinglish": "bank account"
+      },
+      {
+        "hi": "पिछली कक्षा का उत्तीर्ण प्रमाण पत्र",
+        "en": "Previous class pass certificate",
+        "hinglish": "last class marksheet"
+      },
+      {
+        "hi": "यूनीक आईडी",
+        "en": "Unique ID",
+        "hinglish": "unique id"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित आवेदन पत्र भरें",
+          "en": "Fill the application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "जिला समाज कल्याण कार्यालय में आवेदन जमा करें",
+          "en": "Submit application at District Social Welfare Office",
+          "hinglish": "district welfare office me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "जिला समाज कल्याण कार्यालय",
+          "en": "District Social Welfare Office",
+          "hinglish": "district welfare office"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "आवेदन जिला कार्यालय में जमा किया जाता है",
+        "en": "Application is submitted at district office",
+        "hinglish": "application district office me submit hota hai"
+      },
+      {
+        "hi": "सत्यापन के बाद प्रोत्साहन राशि दी जाती है",
+        "en": "After verification, incentive is provided",
+        "hinglish": "verification ke baad paisa milta hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "यह योजना किसके लिए है?",
+          "en": "Who is eligible for this scheme?",
+          "hinglish": "ye scheme kiske liye hai"
+        },
+        "answer": {
+          "hi": "यह योजना उच्च शिक्षा प्राप्त कर रहे दिव्यांग विद्यार्थियों के लिए है।",
+          "en": "This scheme is for disabled students pursuing higher education.",
+          "hinglish": "ye scheme higher study kar rahe divyang students ke liye hai"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में दिव्यांग विद्यार्थियों को उच्च शिक्षा के लिए आर्थिक सहायता दी जाती है।",
+      "en": "This scheme provides financial help for higher education to disabled students.",
+      "hinglish": "divyang students ko higher study ke liye paisa milta hai"
+    }
+  },
+
+  "nlp": {
+    "scheme_identity_keywords": [
+      "दिव्यांग उच्च शिक्षा योजना",
+      "दिव्यांग higher education",
+      "higher education divyang",
+      "divyang college scholarship",
+      "college paisa divyang",
+      "divyang higher study cg",
+      "divyang graduation scholarship",
+      "higher study sahayata cg",
+      "college yojana divyang",
+      "divyang degree paisa"
+    ],
+
+    "keywords": [
+      "apply kaise kare",
+      "form kaha milega",
+      "documents kya hai",
+      "kitna paisa milta hai"
+    ],
+
+    "synonyms": {
+      "divyang": ["viklang", "disabled"],
+      "scholarship": ["chatravritti", "padhai paisa"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna paisa", "कितना पैसा"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

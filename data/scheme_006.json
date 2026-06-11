@@ -1,0 +1,253 @@
+{
+  "id": "cg_scheme_006",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "central",
+    "department": "Social Welfare Department",
+    "category": "divyang_pension",
+    "priority": 2,
+    "last_updated": "2026-01-01",
+    "source": "Ministry of Rural Development + CG Social Welfare"
+  },
+
+  "scheme_name": {
+    "hi": "इंदिरा गांधी राष्ट्रीय दिव्यांग पेंशन योजना",
+    "en": "Indira Gandhi National Disability Pension Scheme",
+    "hinglish": "Indira Gandhi National Divyang Pension Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाले दिव्यांगजनों को आर्थिक सहायता प्रदान कर सम्मानपूर्वक जीवन-यापन में सहयोग करना।",
+      "en": "To provide financial assistance to disabled persons living below the poverty line for a dignified life.",
+      "hinglish": "BPL divyang log ko financial help dena taki wo respect ke saath jee sake"
+    },
+
+    "benefits": {
+      "type": "monthly",
+      "amount": 500,
+      "text": {
+        "hi": "₹500 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500 per month pension is provided.",
+        "hinglish": "₹500 per month pension milta hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "age",
+          "text": {
+            "hi": "18 वर्ष या उससे अधिक आयु के दिव्यांगजन पात्र हैं",
+            "en": "Disabled persons aged 18 years or above are eligible",
+            "hinglish": "18+ age ke divyang log eligible hain"
+          }
+        },
+        {
+          "id": "bpl_condition",
+          "text": {
+            "hi": "गरीबी रेखा (BPL) सूची में नाम होना चाहिए",
+            "en": "Must be listed under BPL survey",
+            "hinglish": "BPL list me naam hona chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "सर्वे सूची प्रमाण पत्र",
+        "en": "Survey list certificate",
+        "hinglish": "survey certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक पासबुक की छाया प्रति",
+        "en": "Bank passbook copy",
+        "hinglish": "bank passbook copy"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "मोबाइल नंबर",
+        "en": "Mobile number",
+        "hinglish": "mobile number"
+      },
+      {
+        "hi": "निर्धारित प्रारूप में आवेदन पत्र",
+        "en": "Prescribed application form",
+        "hinglish": "application form"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन पत्र भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+          "en": "Submit application at Gram Panchayat (rural areas)",
+          "hinglish": "gaon me gram panchayat me jama karo"
+        },
+        {
+          "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+          "en": "Submit through councillor in municipal office (urban areas)",
+          "hinglish": "city me nagar nigam me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "ग्राम पंचायत",
+          "en": "Gram Panchayat",
+          "hinglish": "gram panchayat"
+        },
+        {
+          "hi": "जनपद पंचायत",
+          "en": "Janpad Panchayat",
+          "hinglish": "janpad panchayat"
+        },
+        {
+          "hi": "नगर निगम / नगर पालिका / नगर पंचायत",
+          "en": "Municipal Office",
+          "hinglish": "nagar nigam"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+        "en": "Gram Panchayat forwards application to Janpad Panchayat",
+        "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+      },
+      {
+        "hi": "शहरी क्षेत्रों में आवेदन आयुक्त नगर निगम / मुख्य नगर पालिका अधिकारी के कार्यालय में प्रस्तुत किया जाता है",
+        "en": "In urban areas, application is submitted to municipal office",
+        "hinglish": "city me nagar nigam me submit hota hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "पेंशन कब मिलती है?",
+          "en": "When is pension given?",
+          "hinglish": "pension kab milta hai"
+        },
+        "answer": {
+          "hi": "यह पेंशन प्रत्येक महीने दी जाती है।",
+          "en": "This pension is provided every month.",
+          "hinglish": "ye pension har mahine milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "क्या यह योजना ऑनलाइन है?",
+          "en": "Is this scheme online?",
+          "hinglish": "kya ye online hai"
+        },
+        "answer": {
+          "hi": "नहीं, यह योजना ऑफलाइन माध्यम से लागू होती है।",
+          "en": "No, this scheme is offline.",
+          "hinglish": "nahi, ye offline process hai"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में दिव्यांग व्यक्तियों को ₹500 प्रति माह पेंशन दी जाती है।",
+      "en": "₹500 monthly pension is given to disabled persons.",
+      "hinglish": "divyang ko ₹500 per month pension milta hai"
+    }
+  },
+
+  "nlp": {
+    "scheme_identity_keywords": [
+        "इंदिरा गांधी दिव्यांग पेंशन",
+        "दिव्यांग पेंशन योजना",
+        "विकलांग पेंशन योजना",
+        "हैंडिकैप पेंशन",
+        "500 दिव्यांग पेंशन",
+        "indira gandhi disability pension",
+        "divyang pension india",
+        "viklang pension india",
+        "handicap pension scheme",
+        "viklaang pansan india"
+    ],
+
+
+
+    "keywords": [
+      "दिव्यांग पेंशन",
+      "विकलांग पेंशन",
+      "divyang pension",
+      "viklang pension",
+      "disability pension cg",
+      "handicap pension",
+      "indira gandhi pension",
+      "cg divyang pension",
+      "pension kaise milega",
+      "form kaha milega"
+    ],
+
+    "synonyms": {
+      "divyang": ["viklang", "disabled", "handicap"],
+      "pension": ["sahayata", "paise", "arthik madad"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna paisa", "कितना पैसा"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

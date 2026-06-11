@@ -1,0 +1,258 @@
+{
+  "id": "cg_scheme_003",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "general_pension",
+    "priority": 1,
+    "last_updated": "2026-01-01",
+    "source": "Department of Social Welfare, Chhattisgarh"
+  },
+
+  "scheme_name": {
+    "hi": "मुख्यमंत्री पेंशन योजना - 2018",
+    "en": "Chief Minister Pension Scheme - 2018",
+    "hinglish": "Mukhyamantri Pension Yojana 2018"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "सामाजिक-आर्थिक एवं जाति जनगणना 2011 की सूची में शामिल पात्र व्यक्तियों को आर्थिक सहायता प्रदान करना।",
+      "en": "To provide financial assistance to eligible persons listed in Socio-Economic Caste Census 2011.",
+      "hinglish": "SECC 2011 list me naam wale logon ko financial help dena"
+    },
+
+    "benefits": {
+      "type": "monthly",
+      "amount": 500,
+      "text": {
+        "hi": "₹500 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500 per month pension is provided.",
+        "hinglish": "₹500 per month pension milta hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "secc",
+          "text": {
+            "hi": "सामाजिक-आर्थिक जाति जनगणना 2011 की सूची में नाम होना चाहिए",
+            "en": "Must be listed in SECC 2011",
+            "hinglish": "SECC 2011 list me naam hona chahiye"
+          }
+        },
+        {
+          "id": "senior_citizen",
+          "text": {
+            "hi": "60 वर्ष या उससे अधिक आयु के महिला एवं पुरुष पात्र हैं",
+            "en": "Men and women aged 60 years or above are eligible",
+            "hinglish": "60+ age ke male female eligible hain"
+          }
+        },
+        {
+          "id": "widow_abandoned",
+          "text": {
+            "hi": "18 वर्ष या उससे अधिक आयु की विधवा / परित्यक्त महिलाएं पात्र हैं",
+            "en": "Widowed or abandoned women aged 18 or above are eligible",
+            "hinglish": "18+ widow ya abandoned women eligible hain"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "सर्वे सूची प्रमाण पत्र",
+        "en": "Survey list certificate",
+        "hinglish": "survey certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक पासबुक की कॉपी",
+        "en": "Bank passbook copy",
+        "hinglish": "bank passbook copy"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "मोबाइल नंबर",
+        "en": "Mobile number",
+        "hinglish": "mobile number"
+      },
+      {
+        "hi": "निर्धारित आवेदन पत्र",
+        "en": "Prescribed application form",
+        "hinglish": "application form"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन फॉर्म भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+          "en": "Submit application at Gram Panchayat (rural)",
+          "hinglish": "gaon me gram panchayat me jama karo"
+        },
+        {
+          "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+          "en": "Submit through councillor in municipal office (urban)",
+          "hinglish": "city me nagar nigam me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "ग्राम पंचायत",
+          "en": "Gram Panchayat",
+          "hinglish": "gram panchayat"
+        },
+        {
+          "hi": "जनपद पंचायत",
+          "en": "Janpad Panchayat",
+          "hinglish": "janpad panchayat"
+        },
+        {
+          "hi": "नगर निगम / नगर पालिका / नगर पंचायत",
+          "en": "Municipal Office",
+          "hinglish": "nagar nigam"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+        "en": "Gram Panchayat forwards application to Janpad Panchayat",
+        "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+      },
+      {
+        "hi": "शहरी क्षेत्रों में आवेदन नगर निगम / नगर पालिका में जमा किया जाता है",
+        "en": "In urban areas, application is submitted to municipal office",
+        "hinglish": "city me nagar nigam me submit hota hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "इस योजना में कितनी पेंशन मिलती है?",
+          "en": "How much pension is given in this scheme?",
+          "hinglish": "is scheme me kitna pension milta hai"
+        },
+        "answer": {
+          "hi": "₹500 प्रति माह पेंशन दी जाती है।",
+          "en": "₹500 per month pension is provided.",
+          "hinglish": "₹500 per month pension milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "कौन पात्र है?",
+          "en": "Who is eligible?",
+          "hinglish": "kaun eligible hai"
+        },
+        "answer": {
+          "hi": "60+ आयु के व्यक्ति और 18+ विधवा / परित्यक्त महिलाएं पात्र हैं।",
+          "en": "60+ individuals and 18+ widowed/abandoned women are eligible.",
+          "hinglish": "60+ log aur 18+ widow ya abandoned women eligible hain"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में पात्र व्यक्तियों को ₹500 प्रति माह पेंशन दी जाती है।",
+      "en": "This scheme provides ₹500 monthly pension to eligible persons.",
+      "hinglish": "is scheme me eligible log ko ₹500 pension milta hai"
+    }
+  },
+
+  "nlp": {
+    "scheme_identity_keywords": [
+      "मुख्यमंत्री पेंशन योजना",
+      "सीएम पेंशन",
+      "बुजुर्ग पेंशन",
+      "वृद्ध पेंशन",
+      "60 साल पेंशन",
+      "छत्तीसगढ़ मुख्यमंत्री पेंशन",
+      "cm pension cg",
+      "old age pension cg",
+      "vridh pension cg",
+      "buzurg pansan cg"
+    ],
+
+    "keywords": [
+      "मुख्यमंत्री पेंशन योजना",
+      "cm pension cg",
+      "cg pension 2018",
+      "old age pension cg",
+      "widow pension cg",
+      "500 pension cg",
+      "pension kaise milega",
+      "cg pension yojana"
+    ],
+
+    "synonyms": {
+      "pension": ["sahayata", "paise", "arthik madad"],
+      "old": ["vriddh", "buzurg"],
+      "widow": ["vidhwa"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna paisa", "कितनी पेंशन"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

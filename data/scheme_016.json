@@ -1,0 +1,237 @@
+{
+  "id": "cg_scheme_016",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "central",
+    "department": "Social Welfare Department",
+    "category": "divyang_rehabilitation_support",
+    "priority": 3,
+    "last_updated": "2026-01-01",
+    "source": "Social Welfare Department + Rehabilitation Program"
+  },
+
+  "scheme_name": {
+    "hi": "राष्ट्रीय दिव्यांगजन पुनर्वास कार्यक्रम",
+    "en": "National Program for Rehabilitation of Persons with Disabilities",
+    "hinglish": "Divyang Rehabilitation Program"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "दिव्यांगजनों को पुनर्वास, मार्गदर्शन और सरकारी योजनाओं से जोड़कर समाज की मुख्यधारा में शामिल करना।",
+      "en": "To rehabilitate disabled persons and connect them with government schemes and services.",
+      "hinglish": "divyang log ko guide karke unhe schemes aur society se jodna"
+    },
+
+    "benefits": {
+      "type": "service_support",
+      "text": {
+        "hi": "दिव्यांगजनों को मार्गदर्शन, प्रमाण पत्र, योजनाओं की जानकारी एवं पुनर्वास सेवाएं प्रदान की जाती हैं।",
+        "en": "Guidance, certification support, scheme awareness and rehabilitation services are provided.",
+        "hinglish": "guidance aur schemes ki jankari di jati hai"
+      },
+
+      "services": [
+        {
+          "hi": "दिव्यांग प्रमाण पत्र बनवाने में सहायता",
+          "en": "Help in disability certification",
+          "hinglish": "certificate banwane me help"
+        },
+        {
+          "hi": "UDID कार्ड बनवाने में सहायता",
+          "en": "Support for UDID card",
+          "hinglish": "udid banwane me help"
+        },
+        {
+          "hi": "सरकारी योजनाओं की जानकारी",
+          "en": "Information about schemes",
+          "hinglish": "yojana ki info"
+        },
+        {
+          "hi": "शिविरों में भागीदारी",
+          "en": "Participation in camps",
+          "hinglish": "camp me le jana"
+        },
+        {
+          "hi": "स्वरोजगार हेतु मार्गदर्शन",
+          "en": "Guidance for self-employment",
+          "hinglish": "rojgar ke liye guide"
+        }
+      ]
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "disability",
+          "text": {
+            "hi": "दिव्यांगजन होना आवश्यक है",
+            "en": "Must be a person with disability",
+            "hinglish": "divyang hona chahiye"
+          }
+        },
+        {
+          "id": "residence",
+          "text": {
+            "hi": "छत्तीसगढ़ का निवासी होना चाहिए",
+            "en": "Must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "आवेदन पत्र",
+        "en": "Application form",
+        "hinglish": "form"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "विकासखंड स्तर के पुनर्वास कार्यकर्ता से संपर्क करें",
+          "en": "Contact block-level rehabilitation worker",
+          "hinglish": "rehab worker se contact karo"
+        },
+        {
+          "hi": "ग्राम पंचायत स्तर के विकलांग मितान से संपर्क करें",
+          "en": "Contact village-level disability volunteer",
+          "hinglish": "gaon ke mitan se baat karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "विकासखंड स्तर पुनर्वास कार्यालय",
+          "en": "Block-level rehabilitation office",
+          "hinglish": "block office"
+        },
+        {
+          "hi": "ग्राम पंचायत स्तर",
+          "en": "Village level",
+          "hinglish": "gaon level"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "दिव्यांगजनों की पहचान की जाती है",
+        "en": "Disabled persons are identified",
+        "hinglish": "identify kiya jata hai"
+      },
+      {
+        "hi": "उन्हें प्रमाण पत्र एवं योजनाओं से जोड़ा जाता है",
+        "en": "They are linked with certification and schemes",
+        "hinglish": "schemes se joda jata hai"
+      },
+      {
+        "hi": "रोजगार एवं पुनर्वास के लिए मार्गदर्शन दिया जाता है",
+        "en": "Guidance for employment and rehabilitation is provided",
+        "hinglish": "rojgar ke liye guide kiya jata hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "क्या इसमें पैसा मिलता है?",
+          "en": "Is there any financial benefit?",
+          "hinglish": "kya paisa milta hai"
+        },
+        "answer": {
+          "hi": "नहीं, यह योजना सेवा और मार्गदर्शन प्रदान करती है।",
+          "en": "No, it provides support and guidance services.",
+          "hinglish": "nahi, sirf guidance milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "इसका फायदा कैसे मिलेगा?",
+          "en": "How to benefit from this?",
+          "hinglish": "kaise fayda milega"
+        },
+        "answer": {
+          "hi": "स्थानीय पुनर्वास कार्यकर्ता या ग्राम स्तर के मितान से संपर्क करें।",
+          "en": "Contact local rehabilitation worker or village volunteer.",
+          "hinglish": "rehab worker se milo"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस कार्यक्रम में दिव्यांगजनों को मार्गदर्शन, प्रमाण पत्र एवं योजनाओं से जोड़ने की सुविधा दी जाती है।",
+      "en": "This program provides guidance and connects disabled persons with schemes.",
+      "hinglish": "divyang ko guidance aur scheme se joda jata hai"
+    }
+  },
+
+  "scheme_identity_keywords": [
+    "divyang rehabilitation cg",
+    "cg rehab program",
+    "disability support cg",
+    "divyang guidance scheme",
+    "rehabilitation program india",
+
+    "दिव्यांग पुनर्वास योजना",
+    "रीहैब प्रोग्राम",
+    "दिव्यांग सहायता योजना",
+    "मार्गदर्शन योजना",
+    "पुनर्वास कार्यक्रम"
+  ],
+
+  "nlp": {
+    "keywords": [
+      "rehab program",
+      "divyang help",
+      "disability support",
+      "scheme guidance",
+      "cg rehab service",
+
+      "दिव्यांग सहायता",
+      "रीहैब",
+      "मार्गदर्शन योजना",
+      "पुनर्वास",
+      "दिव्यांग मदद"
+    ],
+
+    "synonyms": {
+      "divyang": ["viklang", "disabled", "handicap"],
+      "rehabilitation": ["rehab", "support", "madad"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kya milta hai", "क्या मिलता है"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise contact kare", "कैसे संपर्क करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

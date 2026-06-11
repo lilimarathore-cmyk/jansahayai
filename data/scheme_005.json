@@ -1,0 +1,251 @@
+{
+  "id": "cg_scheme_005",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "central",
+    "department": "Ministry of Rural Development + CG Social Welfare",
+    "category": "widow_pension",
+    "priority": 1,
+    "last_updated": "2026-01-01",
+    "source": "NSAP + CG Social Welfare"
+  },
+
+  "scheme_name": {
+    "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना",
+    "en": "Indira Gandhi National Widow Pension Scheme",
+    "hinglish": "Indira Gandhi National Widow Pension Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाली विधवा एवं परित्यक्त महिलाओं को आर्थिक सहायता प्रदान कर सम्मानपूर्वक जीवन-यापन में सहयोग देना।",
+      "en": "To provide financial assistance to widowed and abandoned women living below the poverty line for a dignified life.",
+      "hinglish": "BPL widow aur abandoned women ko financial help dena taki wo respect ke saath jee sake"
+    },
+
+    "benefits": {
+      "type": "monthly",
+      "amount": 500,
+      "text": {
+        "hi": "₹500 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500 per month pension is provided.",
+        "hinglish": "₹500 per month pension milta hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "bpl_condition",
+          "text": {
+            "hi": "गरीबी रेखा (BPL) सर्वे सूची में नाम होना चाहिए",
+            "en": "Must be listed under BPL survey",
+            "hinglish": "BPL list me naam hona chahiye"
+          }
+        },
+        {
+          "id": "age",
+          "text": {
+            "hi": "18 से 60 वर्ष आयु वर्ग की विधवा / परित्यक्त महिलाएं पात्र हैं",
+            "en": "Widowed or abandoned women aged 18-60 are eligible",
+            "hinglish": "18-60 age ki widow ya abandoned women eligible hain"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "सर्वे सूची प्रमाण पत्र",
+        "en": "Survey list certificate",
+        "hinglish": "survey certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक पासबुक की कॉपी",
+        "en": "Bank passbook copy",
+        "hinglish": "bank passbook copy"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "मोबाइल नंबर",
+        "en": "Mobile number",
+        "hinglish": "mobile number"
+      },
+      {
+        "hi": "निर्धारित आवेदन पत्र",
+        "en": "Prescribed application form",
+        "hinglish": "application form"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन फॉर्म भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+          "en": "Submit application at Gram Panchayat (rural)",
+          "hinglish": "gaon me gram panchayat me jama karo"
+        },
+        {
+          "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+          "en": "Submit through councillor in municipal office (urban)",
+          "hinglish": "city me nagar nigam me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "ग्राम पंचायत",
+          "en": "Gram Panchayat",
+          "hinglish": "gram panchayat"
+        },
+        {
+          "hi": "जनपद पंचायत",
+          "en": "Janpad Panchayat",
+          "hinglish": "janpad panchayat"
+        },
+        {
+          "hi": "नगर निगम / नगर पालिका / नगर पंचायत",
+          "en": "Municipal Office",
+          "hinglish": "nagar nigam"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+        "en": "Gram Panchayat forwards application to Janpad Panchayat",
+        "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+      },
+      {
+        "hi": "शहरी क्षेत्रों में आवेदन नगर निगम / नगर पालिका में जमा किया जाता है",
+        "en": "In urban areas, application is submitted to municipal office",
+        "hinglish": "city me nagar nigam me submit hota hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "कितनी पेंशन मिलती है?",
+          "en": "How much pension is given?",
+          "hinglish": "kitna pension milta hai"
+        },
+        "answer": {
+          "hi": "₹500 प्रति माह पेंशन दी जाती है।",
+          "en": "₹500 per month pension is provided.",
+          "hinglish": "₹500 per month pension milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "कौन पात्र है?",
+          "en": "Who is eligible?",
+          "hinglish": "kaun eligible hai"
+        },
+        "answer": {
+          "hi": "18-60 वर्ष आयु की विधवा / परित्यक्त महिलाएं पात्र हैं।",
+          "en": "Widowed/abandoned women aged 18-60 are eligible.",
+          "hinglish": "18-60 age ki widow ya abandoned women eligible hain"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में 18-60 वर्ष की विधवा / परित्यक्त महिलाओं को ₹500 प्रति माह पेंशन दी जाती है।",
+      "en": "This scheme provides ₹500 monthly pension to widowed/abandoned women aged 18-60.",
+      "hinglish": "18-60 widow ya abandoned women ko ₹500 pension milta hai"
+    }
+  },
+
+  "nlp": {
+
+    "scheme_identity_keywords": [
+        "इंदिरा गांधी विधवा पेंशन",
+        "विधवा पेंशन योजना",
+        "परित्यक्ता महिला पेंशन",
+        "महिला सहायता पेंशन",
+        "widow pension india",
+        "vidhwa pension yojana",
+        "mahila pension 500",
+        "vidhwa pansan",
+        "ladies sahayata pension",
+        "widow benefit scheme"
+    ],
+
+    "keywords": [
+      "विधवा पेंशन",
+      "widow pension cg",
+      "vidhwa pension",
+      "cg widow scheme",
+      "500 pension widow",
+      "mahila pension cg",
+      "widow pension kaise milega",
+      "vidhwa yojana cg"
+    ],
+
+    "synonyms": {
+      "widow": ["vidhwa", "widowed"],
+      "abandoned": ["parityakt"],
+      "pension": ["sahayata", "paise", "arthik madad"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna paisa", "कितनी पेंशन"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "cg_scheme_014",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "divyang_support",
+    "priority": 3,
+    "last_updated": "2026-01-01",
+    "source": "Social Welfare Department, Chhattisgarh"
+  },
+
+  "scheme_name": {
+    "hi": "दिव्यांगजन हेतु शिविरों का आयोजन",
+    "en": "Camps for Disabled Persons",
+    "hinglish": "Divyang Camp Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "दिव्यांगजनों की पहचान, प्रमाणन, पुनर्वास एवं सरकारी योजनाओं से जोड़ने हेतु शिविरों का आयोजन करना।",
+      "en": "To organize camps for identification, certification, rehabilitation and linking disabled persons with government schemes.",
+      "hinglish": "Divyang log ko identify, certificate aur schemes se jodne ke liye camp lagana"
+    },
+
+    "benefits": {
+      "type": "service_based",
+      "text": {
+        "hi": "शिविरों में पहचान, प्रमाण पत्र, परामर्श एवं सहायक उपकरण वितरण जैसी सेवाएं प्रदान की जाती हैं।",
+        "en": "Services like identification, certification, counselling and assistive device distribution are provided.",
+        "hinglish": "camp me certificate, madad aur devices diye jate hain"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "disability",
+          "text": {
+            "hi": "40 प्रतिशत या उससे अधिक दिव्यांगता होना आवश्यक है",
+            "en": "Must have 40% or more disability",
+            "hinglish": "40% ya usse jyada disability hona chahiye"
+          }
+        },
+        {
+          "id": "residence",
+          "text": {
+            "hi": "छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "दिव्यांगता प्रमाण पत्र",
+        "en": "Disability certificate",
+        "hinglish": "divyang certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "शिविर स्थल या जिला पुनर्वास केंद्र में उपस्थित हों",
+          "en": "Visit camp location or district rehabilitation center",
+          "hinglish": "camp ya rehab center me jao"
+        },
+        {
+          "hi": "आवश्यक दस्तावेज प्रस्तुत करें",
+          "en": "Submit required documents",
+          "hinglish": "documents jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "शिविर स्थल",
+          "en": "Camp location",
+          "hinglish": "camp jagah"
+        },
+        {
+          "hi": "जिला पुनर्वास केंद्र, समाज कल्याण विभाग",
+          "en": "District Rehabilitation Center",
+          "hinglish": "rehab center"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "दिव्यांगजनों की पहचान एवं पंजीकरण किया जाता है",
+        "en": "Identification and registration of disabled persons",
+        "hinglish": "registration hota hai"
+      },
+      {
+        "hi": "प्रमाण पत्र एवं उपकरण प्रदान किए जाते हैं",
+        "en": "Certificates and devices are provided",
+        "hinglish": "certificate aur device milta hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "शिविर कब लगते हैं?",
+          "en": "When are camps organized?",
+          "hinglish": "camp kab lagta hai"
+        },
+        "answer": {
+          "hi": "समय-समय पर सरकार द्वारा शिविर आयोजित किए जाते हैं।",
+          "en": "Camps are organized from time to time by the government.",
+          "hinglish": "government time time pe camp lagati hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "क्या यहाँ उपकरण मिलते हैं?",
+          "en": "Are devices provided here?",
+          "hinglish": "kya device milta hai"
+        },
+        "answer": {
+          "hi": "हाँ, पात्रता अनुसार सहायक उपकरण दिए जाते हैं।",
+          "en": "Yes, assistive devices are provided as per eligibility.",
+          "hinglish": "haan eligible hone par device milta hai"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में दिव्यांगजनों के लिए शिविर लगाकर प्रमाण पत्र, उपकरण और परामर्श दिया जाता है।",
+      "en": "Camps are organized to provide certification, devices and support to disabled persons.",
+      "hinglish": "camp me divyang ko certificate aur madad milti hai"
+    }
+  },
+
+  "nlp": {
+    "keywords": [
+      "दिव्यांग शिविर",
+      "camp divyang",
+      "rehab camp cg",
+      "certificate camp",
+      "device camp",
+      "viklang camp",
+      "divyang camp kaha lagta hai",
+      "cg divyang camp"
+    ],
+
+    "scheme_identity_keywords": [
+      "दिव्यांग शिविर योजना",
+      "camp for disabled cg",
+      "rehabilitation camp cg",
+      "viklang camp yojana",
+      "divyang camp chhattisgarh"
+    ],
+
+    "synonyms": {
+      "divyang": ["viklang", "disabled", "handicap"],
+      "camp": ["shivir", "camp", "karyakram"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kya milta hai", "क्या मिलता है"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun aa sakta", "कौन आ सकता"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise jaye", "कैसे जाए"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha hota hai", "कहाँ होता है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["camp kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

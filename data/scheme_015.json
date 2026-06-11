@@ -1,0 +1,296 @@
+{
+  "id": "cg_scheme_015",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "divyang_equipment_support",
+    "priority": 2,
+    "last_updated": "2026-01-01",
+    "source": "Social Welfare Department, Chhattisgarh"
+  },
+
+  "scheme_name": {
+    "hi": "कृत्रिम अंग / सहायक उपकरण प्रदाय योजना",
+    "en": "Artificial Limb and Assistive Devices Scheme",
+    "hinglish": "Divyang Equipment Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "दिव्यांगजनों को उनकी आवश्यकता अनुसार कृत्रिम अंग एवं सहायक उपकरण प्रदान करना।",
+      "en": "To provide artificial limbs and assistive devices to disabled persons as per requirement.",
+      "hinglish": "divyang log ko unki jarurat ke hisaab se device dena"
+    },
+
+    "benefits": {
+      "type": "equipment_support",
+      "amount": 6000,
+      "text": {
+        "hi": "₹6000 तक की लागत के सहायक उपकरण निःशुल्क प्रदान किए जाते हैं।",
+        "en": "Assistive devices up to ₹6000 are provided free of cost.",
+        "hinglish": "₹6000 tak ke devices free milte hain"
+      },
+
+      "items": [
+        {
+          "hi": "ट्रायसायकल",
+          "en": "Tricycle",
+          "hinglish": "tricycle"
+        },
+        {
+          "hi": "व्हीलचेयर",
+          "en": "Wheelchair",
+          "hinglish": "wheelchair"
+        },
+        {
+          "hi": "बैसाखी",
+          "en": "Crutches",
+          "hinglish": "crutches"
+        },
+        {
+          "hi": "कैलिपर्स",
+          "en": "Calipers",
+          "hinglish": "calipers"
+        },
+        {
+          "hi": "जूते",
+          "en": "Special shoes",
+          "hinglish": "special shoes"
+        },
+        {
+          "hi": "छड़ी",
+          "en": "Walking stick",
+          "hinglish": "stick"
+        },
+        {
+          "hi": "श्रवण यंत्र",
+          "en": "Hearing aid",
+          "hinglish": "hearing machine"
+        },
+        {
+          "hi": "कृत्रिम हाथ/पैर",
+          "en": "Artificial limbs",
+          "hinglish": "nakli haath pair"
+        }
+      ]
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "disability",
+          "text": {
+            "hi": "40% या उससे अधिक दिव्यांगता का प्रमाण पत्र होना चाहिए",
+            "en": "Must have 40% or more disability",
+            "hinglish": "40%+ divyang certificate hona chahiye"
+          }
+        },
+        {
+          "id": "income",
+          "text": {
+            "hi": "माता-पिता/अभिभावक की मासिक आय ₹6500 से कम होनी चाहिए",
+            "en": "Monthly income must be less than ₹6500",
+            "hinglish": "income 6500 se kam honi chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "आवेदन पत्र",
+        "en": "Application form",
+        "hinglish": "form"
+      },
+      {
+        "hi": "दिव्यांगता प्रमाण पत्र",
+        "en": "Disability certificate",
+        "hinglish": "divyang certificate"
+      },
+      {
+        "hi": "यूडीआईडी कार्ड",
+        "en": "UDID card",
+        "hinglish": "udid card"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "आय प्रमाण पत्र",
+        "en": "Income certificate",
+        "hinglish": "income proof"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "राशन कार्ड",
+        "en": "Ration card",
+        "hinglish": "ration card"
+      },
+      {
+        "hi": "पासपोर्ट फोटो",
+        "en": "Passport size photo",
+        "hinglish": "photo"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित आवेदन पत्र भरें",
+          "en": "Fill the prescribed form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "दस्तावेजों के साथ जिला पुनर्वास केंद्र में उपस्थित हों",
+          "en": "Visit district rehabilitation center with documents",
+          "hinglish": "rehab center me jao"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "जिला पुनर्वास केंद्र, समाज कल्याण विभाग, बिलासपुर",
+          "en": "District Rehabilitation Center, Bilaspur",
+          "hinglish": "rehab center bilaspur"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "आवेदन और दस्तावेजों का सत्यापन किया जाता है",
+        "en": "Application and documents are verified",
+        "hinglish": "verification hota hai"
+      },
+      {
+        "hi": "चिकित्सकीय जांच के आधार पर उपकरण निर्धारित किए जाते हैं",
+        "en": "Devices are assigned based on medical assessment",
+        "hinglish": "doctor check ke baad device milta hai"
+      },
+      {
+        "hi": "पात्रता अनुसार उपकरण प्रदान किए जाते हैं",
+        "en": "Devices are provided after approval",
+        "hinglish": "approval ke baad device milta hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "क्या यह उपकरण मुफ्त मिलते हैं?",
+          "en": "Are these devices free?",
+          "hinglish": "kya free milta hai"
+        },
+        "answer": {
+          "hi": "हाँ, ₹6000 तक के उपकरण निःशुल्क दिए जाते हैं।",
+          "en": "Yes, devices up to ₹6000 are free.",
+          "hinglish": "haan 6000 tak free milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "कौन-कौन से उपकरण मिलते हैं?",
+          "en": "What devices are provided?",
+          "hinglish": "kaun kaun se device milte hai"
+        },
+        "answer": {
+          "hi": "ट्रायसायकल, व्हीलचेयर, श्रवण यंत्र, कृत्रिम अंग आदि।",
+          "en": "Tricycle, wheelchair, hearing aid, artificial limbs etc.",
+          "hinglish": "tricycle, wheelchair, hearing aid etc"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में दिव्यांगजनों को ₹6000 तक के सहायक उपकरण निःशुल्क दिए जाते हैं।",
+      "en": "Disabled persons get assistive devices up to ₹6000 free.",
+      "hinglish": "divyang ko 6000 tak ke device free milte hain"
+    }
+  },
+
+  "scheme_identity_keywords": [
+    "divyang device scheme cg",
+    "cg wheelchair yojana",
+    "hearing aid scheme cg",
+    "artificial limb cg",
+    "divyang sahayak upkaran",
+
+    "दिव्यांग उपकरण योजना",
+    "व्हीलचेयर योजना",
+    "श्रवण यंत्र योजना",
+    "कृत्रिम अंग योजना",
+    "सहायक उपकरण योजना"
+  ],
+
+  "nlp": {
+    "keywords": [
+      "wheelchair cg",
+      "divyang device",
+      "hearing aid cg",
+      "prosthetic scheme",
+      "assistive devices cg",
+
+      "व्हीलचेयर",
+      "दिव्यांग उपकरण",
+      "श्रवण यंत्र",
+      "कृत्रिम अंग",
+      "सहायक उपकरण"
+    ],
+
+    "synonyms": {
+      "divyang": ["viklang", "disabled", "handicap"],
+      "device": ["equipment", "machine", "upkaran"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kya milega", "क्या मिलेगा"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

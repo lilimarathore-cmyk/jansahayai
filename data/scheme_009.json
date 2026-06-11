@@ -1,0 +1,289 @@
+{
+  "id": "cg_scheme_009",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "divyang_support",
+    "priority": 2,
+    "last_updated": "2026-01-01",
+    "source": "CG Social Welfare Department"
+  },
+
+  "scheme_name": {
+    "hi": "दिव्यांगजन विवाह प्रोत्साहन योजना",
+    "en": "Marriage Incentive Scheme for Disabled Persons",
+    "hinglish": "Divyang Vivah Protsahan Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "दिव्यांग दंपत्ति को विवाह के बाद जीवन-यापन में सहयोग हेतु प्रोत्साहन राशि प्रदान करना।",
+      "en": "To provide financial incentive to disabled couples after marriage for support in life.",
+      "hinglish": "divyang couple ko shaadi ke baad financial support dena"
+    },
+
+    "benefits": {
+      "type": "one_time",
+      "amount": null,
+      "text": {
+        "hi": "इस योजना के तहत पात्र दंपत्ति को प्रोत्साहन राशि दी जाती है (राशि योजना अनुसार निर्धारित होती है)।",
+        "en": "Eligible couples receive a one-time incentive amount (amount varies as per scheme).",
+        "hinglish": "eligible couple ko ek baar incentive amount milta hai (amount fix nahi hota)"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "disability",
+          "text": {
+            "hi": "कम से कम 40% दिव्यांगता का प्रमाण पत्र होना चाहिए",
+            "en": "Must have at least 40% disability certificate",
+            "hinglish": "minimum 40% divyang certificate hona chahiye"
+          }
+        },
+        {
+          "id": "residence",
+          "text": {
+            "hi": "छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "marriage_condition",
+          "text": {
+            "hi": "दंपत्ति में पुरुष का प्रथम विवाह होना चाहिए",
+            "en": "The male partner must be in his first marriage",
+            "hinglish": "ladke ki first marriage honi chahiye"
+          }
+        },
+        {
+          "id": "male_age",
+          "text": {
+            "hi": "पुरुष की आयु 21 से 45 वर्ष के बीच होनी चाहिए",
+            "en": "Male age must be between 21 to 45 years",
+            "hinglish": "male age 21 se 45 ke beech honi chahiye"
+          }
+        },
+        {
+          "id": "female_age",
+          "text": {
+            "hi": "महिला की आयु 18 से 45 वर्ष के बीच होनी चाहिए",
+            "en": "Female age must be between 18 to 45 years",
+            "hinglish": "female age 18 se 45 ke beech honi chahiye"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "दिव्यांगता प्रमाण पत्र",
+        "en": "Disability certificate",
+        "hinglish": "divyang certificate"
+      },
+      {
+        "hi": "आय प्रमाण पत्र",
+        "en": "Income certificate",
+        "hinglish": "income certificate"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "जाति प्रमाण पत्र",
+        "en": "Caste certificate",
+        "hinglish": "caste certificate"
+      },
+      {
+        "hi": "विवाह पंजीयन प्रमाण पत्र",
+        "en": "Marriage registration certificate",
+        "hinglish": "marriage certificate"
+      },
+      {
+        "hi": "यूडीआईडी कार्ड",
+        "en": "UDID card",
+        "hinglish": "UDID card"
+      },
+      {
+        "hi": "कक्षा 8वीं / 10वीं प्रमाण पत्र",
+        "en": "8th / 10th certificate",
+        "hinglish": "8th ya 10th certificate"
+      },
+      {
+        "hi": "संयुक्त बैंक खाता",
+        "en": "Joint bank account",
+        "hinglish": "joint account"
+      },
+      {
+        "hi": "शपथ पत्र (2)",
+        "en": "Affidavit (2)",
+        "hinglish": "2 affidavit"
+      },
+      {
+        "hi": "फोटो",
+        "en": "Photographs",
+        "hinglish": "photo"
+      },
+      {
+        "hi": "विवाह पत्रिका",
+        "en": "Wedding card",
+        "hinglish": "wedding card"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन पत्र भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "आवश्यक दस्तावेजों के साथ आवेदन जमा करें",
+          "en": "Submit application with required documents",
+          "hinglish": "documents ke sath submit karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "मुख्य कार्यपालन अधिकारी, जनपद पंचायत",
+          "en": "CEO, Janpad Panchayat",
+          "hinglish": "janpad panchayat office"
+        },
+        {
+          "hi": "कार्यालय संयुक्त संचालक समाज कल्याण, बिलासपुर",
+          "en": "Office of Joint Director, Social Welfare, Bilaspur",
+          "hinglish": "samaj kalyan office bilaspur"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "आवेदन संबंधित कार्यालय में जमा किया जाता है",
+        "en": "Application is submitted at concerned office",
+        "hinglish": "office me submit hota hai"
+      },
+      {
+        "hi": "सत्यापन के बाद प्रोत्साहन राशि प्रदान की जाती है",
+        "en": "Incentive is provided after verification",
+        "hinglish": "verification ke baad paisa milta hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "इस योजना में कितना पैसा मिलता है?",
+          "en": "How much benefit is provided?",
+          "hinglish": "kitna paisa milta hai"
+        },
+        "answer": {
+          "hi": "इस योजना में राशि योजना के अनुसार निर्धारित होती है, निश्चित राशि तय नहीं है।",
+          "en": "Amount varies as per scheme, no fixed amount.",
+          "hinglish": "amount fix nahi hota scheme ke hisab se milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "क्या यह पहली शादी के लिए ही है?",
+          "en": "Is this only for first marriage?",
+          "hinglish": "kya first marriage ke liye hai"
+        },
+        "answer": {
+          "hi": "हाँ, इस योजना में पुरुष का प्रथम विवाह होना आवश्यक है।",
+          "en": "Yes, male must be in first marriage.",
+          "hinglish": "haan, ladke ki first marriage honi chahiye"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में दिव्यांग दंपत्ति को विवाह के बाद प्रोत्साहन राशि दी जाती है।",
+      "en": "This scheme provides incentive to disabled couples after marriage.",
+      "hinglish": "shaadi ke baad divyang couple ko incentive milta hai"
+    }
+  },
+
+  "nlp": {
+
+
+    "scheme_identity_keywords": [
+        "दिव्यांग विवाह योजना",
+        "विकलांग विवाह सहायता",
+        "शादी सहायता योजना",
+        "दिव्यांग दंपत्ति सहायता",
+        "shaadi sahayata divyang",
+        "divyang marriage scheme",
+        "viklang shaadi sahayata",
+        "marriage incentive divyang",
+        "shaadi paisa scheme cg",
+        "marriage grant cg"
+    ],
+
+    "keywords": [
+      "divyang vivah yojana",
+      "marriage incentive scheme",
+      "shaadi par paisa",
+      "divyang shaadi sahayata",
+      "cg marriage scheme",
+      "vivah protsahan yojana",
+      "shaadi ke baad paisa",
+      "divyang couple benefit",
+      "vivah scheme cg",
+      "marriage benefit cg"
+    ],
+
+    "synonyms": {
+      "marriage": ["shaadi", "vivah"],
+      "benefit": ["sahayata", "paise", "madad"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna paisa", "कितना पैसा"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "marriage_condition",
+        "keywords": ["first marriage", "पहली शादी"],
+        "response": "content.faq[1].answer"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}

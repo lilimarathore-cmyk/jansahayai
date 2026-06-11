@@ -1,0 +1,1591 @@
+[
+{
+  "id": "cg_scheme_001",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "divyang",
+    "priority": 1,
+    "last_updated": "2026-01-01",
+    "source": "Department of Social Welfare, Chhattisgarh"
+  },
+
+  "scheme_name": {
+    "hi": "छत्तीसगढ़ सामाजिक सुरक्षा दिव्यांग पेंशन योजना",
+    "en": "Chhattisgarh Social Security Disability Pension Scheme",
+    "hinglish": "CG Samajik Suraksha Divyang Pension Yojana"
+  },
+
+  "tags": ["divyang", "pension", "cg", "financial_help"],
+
+  "search_text": "divyang viklang disability pension cg 500 rupay sahayata yojana chhattisgarh",
+
+  "content": {
+    "objective": {
+      "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाले दिव्यांग एवं बौने व्यक्तियों को आर्थिक सहायता प्रदान करना।",
+      "en": "To provide financial assistance to disabled and dwarf persons living below the poverty line.",
+      "hinglish": "BPL divyang aur bone log ko financial help dena"
+    },
+
+    "benefits": {
+      "type": "monthly",
+      "amount": 500,
+      "text": {
+        "hi": "₹500 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500 per month pension is provided.",
+        "hinglish": "₹500 per month pension milta hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "छत्तीसगढ़ का निवासी होना चाहिए",
+            "en": "Must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "age",
+          "text": {
+            "hi": "6 से 17 वर्ष के दिव्यांग बच्चे पात्र हैं",
+            "en": "Disabled children aged 6-17 are eligible",
+            "hinglish": "6-17 age ke divyang bachche eligible hain"
+          }
+        },
+        {
+          "id": "school_condition",
+          "text": {
+            "hi": "6-14 वर्ष के जो बच्चे स्कूल नहीं जाते वे पात्र नहीं हैं",
+            "en": "Children aged 6-14 not attending school are not eligible",
+            "hinglish": "6-14 ke jo bachche school nahi ja rahe wo eligible nahi"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "सर्वे सूची प्रमाण पत्र",
+        "en": "Survey list certificate",
+        "hinglish": "survey certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक पासबुक की कॉपी",
+        "en": "Bank passbook copy",
+        "hinglish": "bank passbook copy"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "मोबाइल नंबर",
+        "en": "Mobile number",
+        "hinglish": "mobile number"
+      },
+      {
+        "hi": "आवेदन फॉर्म",
+        "en": "Application form",
+        "hinglish": "application form"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "आवेदन फॉर्म भरें",
+          "en": "Fill the application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "ग्राम पंचायत या नगर निकाय में जमा करें",
+          "en": "Submit at Panchayat or Municipal office",
+          "hinglish": "panchayat ya nagar nigam me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "ग्राम पंचायत",
+          "en": "Gram Panchayat",
+          "hinglish": "gram panchayat"
+        },
+        {
+          "hi": "जनपद पंचायत",
+          "en": "Janpad Panchayat",
+          "hinglish": "janpad panchayat"
+        },
+        {
+          "hi": "नगर निगम / नगर पालिका",
+          "en": "Municipal Office",
+          "hinglish": "nagar nigam"
+        }
+      ]
+    },
+
+    "short_answer": {
+      "hi": "इस योजना में दिव्यांग व्यक्तियों को ₹500 प्रति माह पेंशन दी जाती है।",
+      "en": "₹500 monthly pension is given to disabled persons.",
+      "hinglish": "₹500 per month pension milta hai"
+    }
+  },
+
+  "nlp": {
+    "keywords": [
+      "दिव्यांग पेंशन",
+      "विकलांग पेंशन",
+      "divyang pension",
+      "viklang pension",
+      "cg pension"
+    ],
+
+    "synonyms": {
+      "divyang": [
+        "viklang",
+        "disabled",
+        "handicap",
+        "divyag",
+        "viklaang"
+      ],
+      "pension": [
+        "paise",
+        "sahayata",
+        "madad",
+        "arthik madad"
+      ]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": [
+          "kitna paisa",
+          "कितना पैसा",
+          "pension kitni hai",
+          "कितनी पेंशन मिलती है"
+        ],
+        "response_type": "benefits"
+      },
+      {
+        "name": "eligibility",
+        "keywords": [
+          "kaun le sakta",
+          "कौन ले सकता है",
+          "rules kya hai",
+          "eligible kaun hai"
+        ],
+        "response_type": "eligibility"
+      },
+      {
+        "name": "documents",
+        "keywords": [
+          "documents kya",
+          "कौन से कागज",
+          "paper kya chahiye"
+        ],
+        "response_type": "documents"
+      },
+      {
+        "name": "apply",
+        "keywords": [
+          "kaise apply kare",
+          "कैसे आवेदन करें",
+          "form kaise bhare"
+        ],
+        "response_type": "application_steps"
+      },
+      {
+        "name": "where",
+        "keywords": [
+          "kaha jana hai",
+          "कहाँ जाना है",
+          "kaha apply kare"
+        ],
+        "response_type": "application_locations"
+      },
+      {
+        "name": "general",
+        "keywords": [
+          "yojana kya hai",
+          "योजना क्या है",
+          "details batao"
+        ],
+        "response_type": "summary"
+      }
+    ]
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": "cg_scheme_002",
+
+    "meta": {
+      "state": "Chhattisgarh",
+      "scheme_level": "state",
+      "department": "Social Welfare Department",
+      "category": "women",
+      "priority": 1,
+      "last_updated": "2026-01-01",
+      "source": "Department of Social Welfare, Chhattisgarh"
+    },
+
+    "scheme_name": {
+      "hi": "सुखद सहारा पेंशन योजना",
+      "en": "Sukhad Sahara Pension Scheme",
+      "hinglish": "Sukhad Sahara Pension Yojana"
+    },
+
+    "content": {
+      "objective": {
+        "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाली विधवा एवं परित्यक्त महिलाओं को सम्मानपूर्वक जीवन-यापन हेतु आर्थिक सहायता प्रदान करना।",
+        "en": "To provide financial assistance to widowed and deserted women living below the poverty line for a dignified life.",
+        "hinglish": "BPL widowed aur deserted women ko financial support dena"
+      },
+
+      "benefits": {
+        "type": "monthly",
+        "amount": 500,
+        "text": {
+          "hi": "₹500 प्रतिमाह पेंशन दी जाती है (राज्य योजना)।",
+          "en": "₹500 per month pension is provided (state scheme).",
+          "hinglish": "₹500 per month pension milta hai"
+        }
+      },
+
+      "eligibility": {
+        "rules": [
+          {
+            "id": "residence",
+            "text": {
+              "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+              "en": "Applicant must be a resident of Chhattisgarh",
+              "hinglish": "Applicant CG ka resident hona chahiye"
+            }
+          },
+          {
+            "id": "widow_age",
+            "text": {
+              "hi": "18 से 39 वर्ष आयुवर्ग की विधवा महिलाएं पात्र हैं",
+              "en": "Widowed women aged 18 to 39 are eligible",
+              "hinglish": "18-39 age ki widowed women eligible hain"
+            }
+          },
+          {
+            "id": "deserted_age",
+            "text": {
+              "hi": "18 वर्ष या उससे अधिक आयु की परित्यक्त महिलाएं पात्र हैं",
+              "en": "Deserted women aged 18 years or above are eligible",
+              "hinglish": "18+ age ki deserted women eligible hain"
+            }
+          }
+        ]
+      },
+
+      "documents": [
+        {
+          "hi": "सर्वे सूची प्रमाण पत्र",
+          "en": "Survey list certificate",
+          "hinglish": "survey certificate"
+        },
+        {
+          "hi": "आधार कार्ड",
+          "en": "Aadhaar card",
+          "hinglish": "aadhaar card"
+        },
+        {
+          "hi": "बैंक पासबुक की छाया प्रति",
+          "en": "Bank passbook copy",
+          "hinglish": "bank passbook copy"
+        },
+        {
+          "hi": "निवास प्रमाण पत्र",
+          "en": "Residence certificate",
+          "hinglish": "residence proof"
+        },
+        {
+          "hi": "मोबाइल नंबर",
+          "en": "Mobile number",
+          "hinglish": "mobile number"
+        },
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन पत्र",
+          "en": "Prescribed application form",
+          "hinglish": "application form"
+        }
+      ],
+
+      "application": {
+        "mode": "offline",
+
+        "steps": [
+          {
+            "hi": "निर्धारित प्रारूप में आवेदन पत्र भरें",
+            "en": "Fill the prescribed application form",
+            "hinglish": "form fill karo"
+          },
+          {
+            "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+            "en": "Submit application at Gram Panchayat (rural areas)",
+            "hinglish": "gaon me gram panchayat me jama karo"
+          },
+          {
+            "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+            "en": "Submit through councillor in municipal office (urban areas)",
+            "hinglish": "city me nagar nigam me jama karo"
+          }
+        ],
+
+        "locations": [
+          {
+            "hi": "ग्राम पंचायत",
+            "en": "Gram Panchayat",
+            "hinglish": "gram panchayat"
+          },
+          {
+            "hi": "जनपद पंचायत",
+            "en": "Janpad Panchayat",
+            "hinglish": "janpad panchayat"
+          },
+          {
+            "hi": "नगर निगम / नगर पालिका / नगर पंचायत",
+            "en": "Municipal Corporation / Municipality",
+            "hinglish": "nagar nigam"
+          }
+        ]
+      },
+
+      "extra_info": {
+        "process_flow": [
+          {
+            "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+            "en": "Gram Panchayat forwards application to Janpad Panchayat",
+            "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+          },
+          {
+            "hi": "शहरी क्षेत्रों में आवेदन नगर निगम / नगर पालिका कार्यालय में जमा किया जाता है",
+            "en": "In urban areas, application is submitted to municipal office",
+            "hinglish": "city me nagar nigam me submit hota hai"
+          }
+        ]
+      },
+
+      "short_answer": {
+        "hi": "इस योजना में विधवा और परित्यक्त महिलाओं को ₹500 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500 monthly pension is given to widowed and deserted women.",
+        "hinglish": "widow aur deserted women ko ₹500 per month pension milta hai"
+      }
+    },
+
+    "nlp": {
+      "keywords": [
+        "विधवा पेंशन",
+        "महिला पेंशन योजना",
+        "सुखद सहारा योजना",
+        "परित्यक्त महिला पेंशन",
+        "500 रुपये महिला पेंशन",
+
+        "widow pension cg",
+        "women pension cg",
+        "sahara pension scheme",
+        "cg widow scheme",
+        "deserted women pension",
+
+        "pension for women cg",
+        "apply widow pension cg",
+        "form kaha milega widow",
+        "mahila pension kaise milega"
+      ],
+
+      "synonyms": {
+        "widow": ["विधवा", "widowed"],
+        "deserted": ["परित्यक्त", "chhodi hui mahila"],
+        "pension": ["sahayata", "paise", "arthik madad"]
+      },
+
+      "intents": [
+        {
+          "name": "benefits",
+          "keywords": [
+            "kitna paisa",
+            "कितना पैसा",
+            "pension kitni hai",
+            "कितनी पेंशन मिलती है"
+          ],
+          "response": "content.benefits.text"
+        },
+        {
+          "name": "eligibility",
+          "keywords": [
+            "kaun eligible",
+            "कौन पात्र है",
+            "kaun le sakta",
+            "rules kya hai"
+          ],
+          "response": "content.eligibility.rules"
+        },
+        {
+          "name": "documents",
+          "keywords": [
+            "documents kya",
+            "कागज क्या चाहिए",
+            "paper kya lagega"
+          ],
+          "response": "content.documents"
+        },
+        {
+          "name": "apply",
+          "keywords": [
+            "kaise apply kare",
+            "कैसे आवेदन करें",
+            "form kaise bhare"
+          ],
+          "response": "content.application.steps"
+        },
+        {
+          "name": "where",
+          "keywords": [
+            "kaha jana hai",
+            "कहाँ जाना है",
+            "kaha apply kare"
+          ],
+          "response": "content.application.locations"
+        },
+        {
+          "name": "general",
+          "keywords": [
+            "yojana kya hai",
+            "योजना क्या है",
+            "details batao"
+          ],
+          "response": "content.short_answer"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": "cg_scheme_003",
+
+    "meta": {
+      "state": "Chhattisgarh",
+      "scheme_level": "state",
+      "department": "Social Welfare Department",
+      "category": "pension",
+      "priority": 1,
+      "last_updated": "2026-01-01",
+      "source": "Department of Social Welfare, Chhattisgarh"
+    },
+
+    "scheme_name": {
+      "hi": "मुख्यमंत्री पेंशन योजना - 2018",
+      "en": "Chief Minister Pension Scheme - 2018",
+      "hinglish": "Mukhyamantri Pension Yojana 2018"
+    },
+
+    "content": {
+      "objective": {
+        "hi": "सामाजिक-आर्थिक एवं जाति जनगणना 2011 की सर्वे सूची में नामित व्यक्तियों को आर्थिक सहायता प्रदान करना।",
+        "en": "To provide financial assistance to individuals listed in the Socio-Economic and Caste Census 2011 survey.",
+        "hinglish": "SECC 2011 list me naam wale logon ko financial help dena"
+      },
+
+      "benefits": {
+        "type": "monthly",
+        "amount": 500,
+        "text": {
+          "hi": "₹500 प्रतिमाह पेंशन दी जाती है (राज्य योजना)।",
+          "en": "₹500 per month pension is provided (state scheme).",
+          "hinglish": "₹500 per month pension milta hai"
+        }
+      },
+
+      "eligibility": {
+        "rules": [
+          {
+            "id": "residence",
+            "text": {
+              "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+              "en": "Applicant must be a resident of Chhattisgarh",
+              "hinglish": "Applicant CG ka resident hona chahiye"
+            }
+          },
+          {
+            "id": "age_senior",
+            "text": {
+              "hi": "60 वर्ष या उससे अधिक आयु के महिला एवं पुरुष पात्र हैं",
+              "en": "Men and women aged 60 years or above are eligible",
+              "hinglish": "60+ age ke male aur female eligible hain"
+            }
+          },
+          {
+            "id": "widow_deserted",
+            "text": {
+              "hi": "18 वर्ष या उससे अधिक आयु की विधवा एवं परित्यक्त महिलाएं पात्र हैं",
+              "en": "Widowed and deserted women aged 18 years or above are eligible",
+              "hinglish": "18+ widowed aur deserted women eligible hain"
+            }
+          }
+        ]
+      },
+
+      "documents": [
+        {
+          "hi": "सर्वे सूची प्रमाण पत्र",
+          "en": "Survey list certificate",
+          "hinglish": "survey certificate"
+        },
+        {
+          "hi": "आधार कार्ड",
+          "en": "Aadhaar card",
+          "hinglish": "aadhaar card"
+        },
+        {
+          "hi": "बैंक पासबुक की छाया प्रति",
+          "en": "Bank passbook copy",
+          "hinglish": "bank passbook copy"
+        },
+        {
+          "hi": "निवास प्रमाण पत्र",
+          "en": "Residence certificate",
+          "hinglish": "residence proof"
+        },
+        {
+          "hi": "मोबाइल नंबर",
+          "en": "Mobile number",
+          "hinglish": "mobile number"
+        },
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन पत्र",
+          "en": "Prescribed application form",
+          "hinglish": "application form"
+        }
+      ],
+
+      "application": {
+        "mode": "offline",
+
+        "steps": [
+          {
+            "hi": "निर्धारित प्रारूप में आवेदन पत्र भरें",
+            "en": "Fill the prescribed application form",
+            "hinglish": "form fill karo"
+          },
+          {
+            "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+            "en": "Submit application at Gram Panchayat (rural areas)",
+            "hinglish": "gaon me gram panchayat me jama karo"
+          },
+          {
+            "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+            "en": "Submit through councillor in municipal office (urban areas)",
+            "hinglish": "city me nagar nigam me jama karo"
+          }
+        ],
+
+        "locations": [
+          {
+            "hi": "ग्राम पंचायत",
+            "en": "Gram Panchayat",
+            "hinglish": "gram panchayat"
+          },
+          {
+            "hi": "जनपद पंचायत",
+            "en": "Janpad Panchayat",
+            "hinglish": "janpad panchayat"
+          },
+          {
+            "hi": "नगर निगम / नगर पालिका / नगर पंचायत",
+            "en": "Municipal Corporation / Municipality",
+            "hinglish": "nagar nigam"
+          }
+        ]
+      },
+
+      "extra_info": {
+        "process_flow": [
+          {
+            "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+            "en": "Gram Panchayat forwards application to Janpad Panchayat",
+            "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+          },
+          {
+            "hi": "शहरी क्षेत्रों में आवेदन नगर निगम / नगर पालिका कार्यालय में जमा किया जाता है",
+            "en": "In urban areas, application is submitted to municipal office",
+            "hinglish": "city me nagar nigam me submit hota hai"
+          }
+        ]
+      },
+
+      "short_answer": {
+        "hi": "इस योजना में पात्र व्यक्तियों को ₹500 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500 monthly pension is given to eligible individuals.",
+        "hinglish": "eligible logon ko ₹500 per month pension milta hai"
+      }
+    },
+
+    "nlp": {
+      "keywords": [
+        "मुख्यमंत्री पेंशन",
+        "सीएम पेंशन योजना",
+        "cg pension scheme",
+        "500 pension cg",
+        "वृद्ध पेंशन cg",
+        "महिला पेंशन cg",
+
+        "cm pension cg",
+        "chief minister pension scheme",
+        "cg old age pension",
+        "widow pension cg",
+        "pension scheme cg",
+
+        "pension kaise milega cg",
+        "apply pension cg",
+        "form kaha milega cg"
+      ],
+
+      "synonyms": {
+        "pension": ["sahayata", "paise", "arthik madad"],
+        "elderly": ["वृद्ध", "old age", "buzurg"],
+        "widow": ["विधवा"],
+        "deserted": ["परित्यक्त"]
+      },
+
+      "intents": [
+        {
+          "name": "benefits",
+          "keywords": [
+            "kitna paisa",
+            "कितना पैसा",
+            "pension kitni hai",
+            "कितनी पेंशन मिलती है"
+          ],
+          "response": "content.benefits.text"
+        },
+        {
+          "name": "eligibility",
+          "keywords": [
+            "kaun eligible",
+            "कौन पात्र है",
+            "rules kya hai",
+            "kaun le sakta"
+          ],
+          "response": "content.eligibility.rules"
+        },
+        {
+          "name": "documents",
+          "keywords": [
+            "documents kya",
+            "कागज क्या चाहिए",
+            "paper kya lagega"
+          ],
+          "response": "content.documents"
+        },
+        {
+          "name": "apply",
+          "keywords": [
+            "kaise apply kare",
+            "कैसे आवेदन करें",
+            "form kaise bhare"
+          ],
+          "response": "content.application.steps"
+        },
+        {
+          "name": "where",
+          "keywords": [
+            "kaha jana hai",
+            "कहाँ जाना है",
+            "kaha apply kare"
+          ],
+          "response": "content.application.locations"
+        },
+        {
+          "name": "general",
+          "keywords": [
+            "yojana kya hai",
+            "योजना क्या है",
+            "details batao"
+          ],
+          "response": "content.short_answer"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": "cg_scheme_004",
+
+    "meta": {
+      "state": "Chhattisgarh",
+      "scheme_level": "central",
+      "department": "Social Welfare Department",
+      "category": "pension",
+      "priority": 1,
+      "last_updated": "2026-01-01",
+      "source": "Department of Social Welfare, Chhattisgarh"
+    },
+
+    "scheme_name": {
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना",
+      "en": "Indira Gandhi National Old Age Pension Scheme",
+      "hinglish": "Indira Gandhi Vridhavastha Pension Yojana"
+    },
+
+    "content": {
+      "objective": {
+        "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाले वृद्धजनों को सम्मानपूर्वक जीवन-यापन हेतु आर्थिक सहायता प्रदान करना।",
+        "en": "To provide financial assistance to elderly persons living below the poverty line for a dignified life.",
+        "hinglish": "BPL elderly logon ko financial support dena"
+      },
+
+      "benefits": {
+        "type": "monthly",
+        "amount_range": {
+          "min": 500,
+          "max": 650
+        },
+        "conditions": [
+          {
+            "condition": "age_60_79",
+            "text": {
+              "hi": "60 से 79 वर्ष के वृद्धजनों को ₹500 प्रतिमाह पेंशन दी जाती है",
+              "en": "₹500 per month is given to people aged 60-79",
+              "hinglish": "60-79 age ke logon ko ₹500 milta hai"
+            }
+          },
+          {
+            "condition": "age_80_plus",
+            "text": {
+              "hi": "80 वर्ष या अधिक आयु के वृद्धजनों को ₹650 प्रतिमाह पेंशन दी जाती है",
+              "en": "₹650 per month is given to people aged 80+",
+              "hinglish": "80+ age ke logon ko ₹650 milta hai"
+            }
+          }
+        ]
+      },
+
+      "eligibility": {
+        "rules": [
+          {
+            "id": "residence",
+            "text": {
+              "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+              "en": "Applicant must be a resident of Chhattisgarh",
+              "hinglish": "Applicant CG ka resident hona chahiye"
+            }
+          },
+          {
+            "id": "age",
+            "text": {
+              "hi": "60 वर्ष या उससे अधिक आयु के वृद्धजन पात्र हैं",
+              "en": "People aged 60 years or above are eligible",
+              "hinglish": "60+ age ke log eligible hain"
+            }
+          },
+          {
+            "id": "bpl_condition",
+            "text": {
+              "hi": "गरीबी रेखा सर्वे सूची (ग्रामीण 2002-03 / शहरी 2007-08) में नाम होना चाहिए",
+              "en": "Name must be in BPL survey list (Rural 2002-03 / Urban 2007-08)",
+              "hinglish": "BPL list me naam hona chahiye"
+            }
+          }
+        ]
+      },
+
+      "documents": [
+        {
+          "hi": "सर्वे सूची प्रमाण पत्र",
+          "en": "Survey list certificate",
+          "hinglish": "survey certificate"
+        },
+        {
+          "hi": "आधार कार्ड",
+          "en": "Aadhaar card",
+          "hinglish": "aadhaar card"
+        },
+        {
+          "hi": "बैंक पासबुक की छाया प्रति",
+          "en": "Bank passbook copy",
+          "hinglish": "bank passbook copy"
+        },
+        {
+          "hi": "निवास प्रमाण पत्र",
+          "en": "Residence certificate",
+          "hinglish": "residence proof"
+        },
+        {
+          "hi": "मोबाइल नंबर",
+          "en": "Mobile number",
+          "hinglish": "mobile number"
+        },
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन पत्र",
+          "en": "Prescribed application form",
+          "hinglish": "application form"
+        }
+      ],
+
+      "application": {
+        "mode": "offline",
+
+        "steps": [
+          {
+            "hi": "निर्धारित प्रारूप में आवेदन पत्र भरें",
+            "en": "Fill the prescribed application form",
+            "hinglish": "form fill karo"
+          },
+          {
+            "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+            "en": "Submit at Gram Panchayat (rural areas)",
+            "hinglish": "gaon me gram panchayat me jama karo"
+          },
+          {
+            "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+            "en": "Submit via councillor at municipal office (urban areas)",
+            "hinglish": "city me nagar nigam me jama karo"
+          }
+        ],
+
+        "locations": [
+          {
+            "hi": "ग्राम पंचायत",
+            "en": "Gram Panchayat",
+            "hinglish": "gram panchayat"
+          },
+          {
+            "hi": "जनपद पंचायत",
+            "en": "Janpad Panchayat",
+            "hinglish": "janpad panchayat"
+          },
+          {
+            "hi": "नगर निगम / नगर पालिका / नगर पंचायत",
+            "en": "Municipal Corporation / Municipality",
+            "hinglish": "nagar nigam"
+          }
+        ]
+      },
+
+      "extra_info": {
+        "process_flow": [
+          {
+            "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+            "en": "Gram Panchayat forwards application to Janpad Panchayat",
+            "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+          },
+          {
+            "hi": "शहरी क्षेत्रों में आवेदन नगर निगम / नगर पालिका कार्यालय में जमा किया जाता है",
+            "en": "In urban areas, application is submitted to municipal office",
+            "hinglish": "city me nagar nigam me submit hota hai"
+          }
+        ]
+      },
+
+      "short_answer": {
+        "hi": "इस योजना में 60-79 वर्ष के वृद्धजनों को ₹500 और 80+ वर्ष वालों को ₹650 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500/month for age 60-79 and ₹650/month for 80+ elderly persons.",
+        "hinglish": "60-79 ko ₹500 aur 80+ ko ₹650 milta hai"
+      }
+    },
+
+    "nlp": {
+      "keywords": [
+        "वृद्ध पेंशन",
+        "बुजुर्ग पेंशन योजना",
+        "इंदिरा गांधी वृद्ध पेंशन",
+        "old age pension cg",
+        "बुजुर्गों की पेंशन",
+
+        "old age pension cg",
+        "elderly pension cg",
+        "vridh pension yojana",
+        "cg old age scheme",
+        "pension 60 plus",
+
+        "buzurg pension kaise milega",
+        "apply old age pension cg",
+        "form kaha milega pension",
+        "80+ pension kitna"
+      ],
+
+      "synonyms": {
+        "elderly": ["वृद्ध", "बुजुर्ग", "old age"],
+        "pension": ["sahayata", "paise", "arthik madad"]
+      },
+
+      "intents": [
+        {
+          "name": "benefits",
+          "keywords": [
+            "kitna paisa",
+            "कितना पैसा",
+            "pension kitni hai",
+            "80 saal me kitna milega"
+          ],
+          "response": "content.benefits.conditions"
+        },
+        {
+          "name": "eligibility",
+          "keywords": [
+            "kaun eligible",
+            "कौन पात्र है",
+            "age limit kya hai"
+          ],
+          "response": "content.eligibility.rules"
+        },
+        {
+          "name": "documents",
+          "keywords": [
+            "documents kya",
+            "कागज क्या चाहिए"
+          ],
+          "response": "content.documents"
+        },
+        {
+          "name": "apply",
+          "keywords": [
+            "kaise apply kare",
+            "कैसे आवेदन करें"
+          ],
+          "response": "content.application.steps"
+        },
+        {
+          "name": "where",
+          "keywords": [
+            "kaha jana hai",
+            "कहाँ जाना है"
+          ],
+          "response": "content.application.locations"
+        },
+        {
+          "name": "general",
+          "keywords": [
+            "yojana kya hai",
+            "details batao"
+          ],
+          "response": "content.short_answer"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+  {
+    "id": "cg_scheme_004",
+
+    "meta": {
+      "state": "Chhattisgarh",
+      "scheme_level": "central",
+      "department": "Social Welfare Department",
+      "category": "women_pension",
+      "priority": 2,
+      "last_updated": "2026-01-01",
+      "source": "Ministry of Rural Development + CG Social Welfare"
+    },
+
+    "scheme_name": {
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना",
+      "en": "Indira Gandhi National Widow Pension Scheme",
+      "hinglish": "Indira Gandhi National Widow Pension Yojana"
+    },
+
+    "content": {
+      "objective": {
+        "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाली विधवा एवं परित्यक्ता महिलाओं को आर्थिक सहायता देकर सम्मानपूर्वक जीवन-यापन में सहयोग करना।",
+        "en": "To provide financial assistance to widowed and abandoned women living below the poverty line for a dignified life.",
+        "hinglish": "BPL widow aur chhodi hui mahila ko financial help dena taki wo respect ke saath jee sake"
+      },
+
+      "benefits": {
+        "type": "monthly",
+        "amount": 500,
+        "text": {
+          "hi": "₹500 प्रति माह पेंशन दी जाती है।",
+          "en": "₹500 per month pension is provided.",
+          "hinglish": "₹500 per month pension milta hai"
+        }
+      },
+
+      "eligibility": {
+        "rules": [
+          {
+            "id": "residence",
+            "text": {
+              "hi": "आवेदक छत्तीसगढ़ का निवासी होना चाहिए",
+              "en": "Applicant must be a resident of Chhattisgarh",
+              "hinglish": "CG ka resident hona chahiye"
+            }
+          },
+          {
+            "id": "gender_condition",
+            "text": {
+              "hi": "केवल विधवा या परित्यक्ता महिलाएं पात्र हैं",
+              "en": "Only widowed or abandoned women are eligible",
+              "hinglish": "sirf widow ya chhodi hui mahila eligible hai"
+            }
+          },
+          {
+            "id": "age",
+            "text": {
+              "hi": "18 से 60 वर्ष आयु वर्ग की महिलाएं पात्र हैं",
+              "en": "Women aged 18 to 60 years are eligible",
+              "hinglish": "18 se 60 age ki mahila eligible hai"
+            }
+          }
+        ]
+      },
+
+      "documents": [
+        {
+          "hi": "सर्वे सूची प्रमाण पत्र",
+          "en": "Survey list certificate",
+          "hinglish": "survey certificate"
+        },
+        {
+          "hi": "आधार कार्ड",
+          "en": "Aadhaar card",
+          "hinglish": "aadhaar card"
+        },
+        {
+          "hi": "बैंक पासबुक की कॉपी",
+          "en": "Bank passbook copy",
+          "hinglish": "bank passbook copy"
+        },
+        {
+          "hi": "निवास प्रमाण पत्र",
+          "en": "Residence certificate",
+          "hinglish": "residence proof"
+        },
+        {
+          "hi": "मोबाइल नंबर",
+          "en": "Mobile number",
+          "hinglish": "mobile number"
+        },
+        {
+          "hi": "निर्धारित आवेदन पत्र",
+          "en": "Prescribed application form",
+          "hinglish": "application form"
+        }
+      ],
+
+      "application": {
+        "mode": "offline",
+
+        "steps": [
+          {
+            "hi": "निर्धारित प्रारूप में आवेदन फॉर्म भरें",
+            "en": "Fill the prescribed application form",
+            "hinglish": "form fill karo"
+          },
+          {
+            "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+            "en": "Submit application at Gram Panchayat in rural areas",
+            "hinglish": "gaon me gram panchayat me jama karo"
+          },
+          {
+            "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में आवेदन जमा करें",
+            "en": "Submit through councillor in municipal office in urban areas",
+            "hinglish": "city me nagar nigam me jama karo"
+          }
+        ],
+
+        "locations": [
+          {
+            "hi": "ग्राम पंचायत",
+            "en": "Gram Panchayat",
+            "hinglish": "gram panchayat"
+          },
+          {
+            "hi": "जनपद पंचायत",
+            "en": "Janpad Panchayat",
+            "hinglish": "janpad panchayat"
+          },
+          {
+            "hi": "नगर निगम / नगर पालिका",
+            "en": "Municipal Office",
+            "hinglish": "nagar nigam"
+          }
+        ]
+      },
+
+      "process_flow": [
+        {
+          "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को भेजती है",
+          "en": "Gram Panchayat forwards application to Janpad Panchayat",
+          "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+        },
+        {
+          "hi": "शहरी क्षेत्र में आवेदन नगर निगम / नगर पालिका में जमा होता है",
+          "en": "In urban areas, application is submitted to municipal office",
+          "hinglish": "city me nagar nigam me submit hota hai"
+        }
+      ],
+
+      "short_answer": {
+        "hi": "इस योजना में विधवा महिलाओं को ₹500 प्रति माह पेंशन दी जाती है।",
+        "en": "Widowed women receive ₹500 per month under this scheme.",
+        "hinglish": "widow mahila ko ₹500 per month pension milta hai"
+      }
+    },
+
+    "nlp": {
+      "keywords": [
+        "विधवा पेंशन",
+        "widow pension",
+        "vidhwa pension",
+        "cg widow pension",
+        "pension mahila",
+        "500 pension widow",
+        "vidhwa yojana cg",
+        "mahila pension cg",
+        "widow scheme chhattisgarh",
+        "chhodi hui mahila pension",
+        "parityakta pension"
+      ],
+
+      "synonyms": {
+        "widow": ["vidhwa", "widowed", "mahila"],
+        "pension": ["sahayata", "paise", "arthik madad"]
+      },
+
+      "intents": [
+        {
+          "name": "benefits",
+          "keywords": [
+            "kitna paisa",
+            "कितना पैसा",
+            "pension kitni",
+            "amount kya hai"
+          ],
+          "response": "content.benefits.text"
+        },
+        {
+          "name": "eligibility",
+          "keywords": [
+            "kaun le sakta",
+            "कौन पात्र",
+            "eligible kaun hai"
+          ],
+          "response": "content.eligibility.rules"
+        },
+        {
+          "name": "documents",
+          "keywords": [
+            "documents kya",
+            "कागज क्या लगेगा",
+            "paper kya chahiye"
+          ],
+          "response": "content.documents"
+        },
+        {
+          "name": "apply",
+          "keywords": [
+            "kaise apply kare",
+            "कैसे आवेदन करें",
+            "form kaise bhare"
+          ],
+          "response": "content.application.steps"
+        },
+        {
+          "name": "where",
+          "keywords": [
+            "kaha jana hai",
+            "कहाँ जाना है",
+            "kaha apply kare"
+          ],
+          "response": "content.application.locations"
+        },
+        {
+          "name": "general",
+          "keywords": [
+            "yojana kya hai",
+            "details batao",
+            "scheme info"
+          ],
+          "response": "content.short_answer"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+  {
+    "id": "scheme_006",
+    "scheme_name": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना",
+    "category": ["women", "pension"],
+    "target_group": ["विधवा महिलाएं"],
+    "objective": "गरीबी रेखा के नीचे जीवन यापन करने वाली विधवा महिलाओं को आर्थिक सहायता देना।",
+    "benefits": {
+      "type": "monthly",
+      "amount": 500,
+      "description": "₹500 प्रतिमाह"
+    },
+    "eligibility": [
+      "छत्तीसगढ़ की निवासी",
+      "18 से 60 वर्ष की विधवा"
+    ],
+    "documents": [
+      "आधार कार्ड",
+      "बैंक पासबुक",
+      "निवास प्रमाण पत्र",
+      "आवेदन पत्र"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "फॉर्म भरें",
+        "ग्राम पंचायत / नगर निकाय में जमा करें"
+      ]
+    },
+    "short_answer": "इस योजना में विधवा महिलाओं को ₹500 प्रति माह पेंशन मिलती है।",
+    "keywords": ["विधवा पेंशन", "महिला सहायता"]
+  },
+
+  {
+    "id": "scheme_007",
+    "scheme_name": "इंदिरा गांधी राष्ट्रीय दिव्यांग पेंशन योजना",
+    "category": ["divyang", "pension"],
+    "target_group": ["दिव्यांग व्यक्ति"],
+    "objective": "गरीबी रेखा के नीचे जीवन यापन करने वाले दिव्यांगजनों को आर्थिक सहायता देना।",
+    "benefits": {
+      "type": "monthly",
+      "amount": 500,
+      "description": "₹500 प्रतिमाह"
+    },
+    "eligibility": [
+      "छत्तीसगढ़ निवासी",
+      "18 वर्ष से अधिक आयु के दिव्यांगजन"
+    ],
+    "documents": [
+      "दिव्यांग प्रमाण पत्र",
+      "आधार कार्ड",
+      "बैंक पासबुक"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "आवेदन करें",
+        "स्थानीय निकाय में जमा करें"
+      ]
+    },
+    "short_answer": "इस योजना में दिव्यांग व्यक्तियों को ₹500 प्रति माह पेंशन मिलती है।",
+    "keywords": ["दिव्यांग पेंशन"]
+  },
+
+  {
+    "id": "scheme_008",
+    "scheme_name": "उभयलिंगी व्यक्तियों को टी.जी. कार्ड जारी करना",
+    "category": ["identity"],
+    "target_group": ["ट्रांसजेंडर"],
+    "objective": "उभयलिंगी व्यक्तियों को पहचान पत्र देकर मुख्यधारा से जोड़ना।",
+    "benefits": {
+      "type": "service",
+      "amount": 0,
+      "description": "टीजी कार्ड जारी"
+    },
+    "eligibility": [
+      "छत्तीसगढ़ निवासी"
+    ],
+    "documents": [
+      "आधार कार्ड",
+      "निवास प्रमाण पत्र",
+      "शपथ पत्र",
+      "फोटो"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "समाज कल्याण कार्यालय में आवेदन करें"
+      ]
+    },
+    "short_answer": "इस योजना में ट्रांसजेंडर व्यक्तियों को टीजी कार्ड दिया जाता है।",
+    "keywords": ["TG card", "identity"]
+  },
+
+  {
+    "id": "scheme_009",
+    "scheme_name": "दिव्यांगजन विवाह प्रोत्साहन योजना",
+    "category": ["divyang", "marriage"],
+    "target_group": ["दिव्यांग दंपत्ति"],
+    "objective": "दिव्यांग व्यक्तियों के विवाह को प्रोत्साहन देना।",
+    "benefits": {
+      "type": "one-time",
+      "amount": "variable",
+      "description": "प्रोत्साहन राशि"
+    },
+    "eligibility": [
+      "40% दिव्यांगता",
+      "छत्तीसगढ़ निवासी",
+      "निर्धारित आयु सीमा"
+    ],
+    "documents": [
+      "दिव्यांग प्रमाण पत्र",
+      "विवाह प्रमाण पत्र",
+      "आधार कार्ड"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "जनपद पंचायत या समाज कल्याण कार्यालय में आवेदन करें"
+      ]
+    },
+    "short_answer": "इस योजना में दिव्यांग विवाह पर प्रोत्साहन राशि दी जाती है।",
+    "keywords": ["विवाह सहायता"]
+  },
+
+  {
+    "id": "scheme_010",
+    "scheme_name": "दिव्यांगजन छात्रवृत्ति योजना",
+    "category": ["education"],
+    "target_group": ["दिव्यांग विद्यार्थी"],
+    "objective": "दिव्यांग छात्रों को पढ़ाई के लिए आर्थिक सहायता देना।",
+    "benefits": {
+      "type": "scholarship",
+      "amount": "variable",
+      "description": "छात्रवृत्ति"
+    },
+    "eligibility": [
+      "40% दिव्यांगता",
+      "नियमित छात्र"
+    ],
+    "documents": [
+      "दिव्यांग प्रमाण पत्र",
+      "आधार कार्ड",
+      "मार्कशीट"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "शिक्षा विभाग में आवेदन करें"
+      ]
+    },
+    "short_answer": "इस योजना में दिव्यांग छात्रों को छात्रवृत्ति दी जाती है।",
+    "keywords": ["छात्रवृत्ति"]
+  },
+
+  {
+    "id": "scheme_011",
+    "scheme_name": "दिव्यांग उच्च शिक्षा प्रोत्साहन योजना",
+    "category": ["education"],
+    "target_group": ["दिव्यांग विद्यार्थी"],
+    "objective": "उच्च शिक्षा के लिए दिव्यांग छात्रों को प्रोत्साहन देना।",
+    "benefits": {
+      "type": "scholarship",
+      "amount": "variable",
+      "description": "उच्च शिक्षा हेतु सहायता"
+    },
+    "eligibility": [
+      "12वीं पास",
+      "40% दिव्यांगता"
+    ],
+    "documents": [
+      "दिव्यांग प्रमाण पत्र",
+      "आधार कार्ड"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "समाज कल्याण विभाग में आवेदन करें"
+      ]
+    },
+    "short_answer": "इस योजना में दिव्यांग छात्रों को उच्च शिक्षा के लिए सहायता दी जाती है।",
+    "keywords": ["उच्च शिक्षा"]
+  },
+
+  {
+    "id": "scheme_012",
+    "scheme_name": "दिव्यांगजन सिविल सेवा प्रोत्साहन योजना",
+    "category": ["education"],
+    "target_group": ["दिव्यांग अभ्यर्थी"],
+    "objective": "प्रतियोगी परीक्षा पास करने पर प्रोत्साहन देना।",
+    "benefits": {
+      "type": "reward",
+      "amount": "variable",
+      "description": "प्रोत्साहन राशि"
+    },
+    "eligibility": [
+      "दिव्यांगता प्रमाण पत्र",
+      "परीक्षा उत्तीर्ण"
+    ],
+    "documents": [
+      "प्रमाण पत्र",
+      "आधार कार्ड"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "समाज कल्याण विभाग में आवेदन करें"
+      ]
+    },
+    "short_answer": "इस योजना में परीक्षा पास करने पर प्रोत्साहन राशि मिलती है।",
+    "keywords": ["civil services"]
+  },
+
+  {
+    "id": "scheme_013",
+    "scheme_name": "दिव्यांगजन विद्यार्थियों के लिये छात्रावास योजना",
+    "category": ["education"],
+    "target_group": ["दिव्यांग विद्यार्थी"],
+    "objective": "दूर रहने वाले छात्रों को रहने की सुविधा देना।",
+    "benefits": {
+      "type": "facility",
+      "amount": 0,
+      "description": "छात्रावास सुविधा"
+    },
+    "eligibility": [
+      "20 किमी से अधिक दूरी",
+      "दिव्यांग छात्र"
+    ],
+    "documents": [
+      "दिव्यांग प्रमाण पत्र",
+      "आधार कार्ड"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "समाज कल्याण कार्यालय में आवेदन करें"
+      ]
+    },
+    "short_answer": "इस योजना में दिव्यांग छात्रों को हॉस्टल सुविधा दी जाती है।",
+    "keywords": ["छात्रावास"]
+  },
+
+  {
+    "id": "scheme_014",
+    "scheme_name": "शिविरों का आयोजन",
+    "category": ["service"],
+    "target_group": ["दिव्यांग व्यक्ति"],
+    "objective": "शिविरों के माध्यम से सहायता प्रदान करना।",
+    "benefits": {
+      "type": "service",
+      "amount": 0,
+      "description": "शिविर सेवाएं"
+    },
+    "eligibility": [
+      "40% दिव्यांगता"
+    ],
+    "documents": [],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "शिविर स्थल पर उपस्थित हों"
+      ]
+    },
+    "short_answer": "इस योजना में शिविरों के माध्यम से सेवाएं दी जाती हैं।",
+    "keywords": ["camp"]
+  },
+
+  {
+    "id": "scheme_015",
+    "scheme_name": "कृत्रिम अंग / सहायक उपकरण प्रदाय योजना",
+    "category": ["divyang"],
+    "target_group": ["दिव्यांग व्यक्ति"],
+    "objective": "दिव्यांगजनों को सहायक उपकरण देना।",
+    "benefits": {
+      "type": "equipment",
+      "amount": 6000,
+      "description": "₹6000 तक सहायता"
+    },
+    "eligibility": [
+      "40% दिव्यांगता",
+      "कम आय"
+    ],
+    "documents": [
+      "दिव्यांग प्रमाण पत्र",
+      "आधार कार्ड",
+      "आय प्रमाण पत्र"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "जिला पुनर्वास केंद्र में आवेदन करें"
+      ]
+    },
+    "short_answer": "इस योजना में दिव्यांग व्यक्तियों को उपकरण और ₹6000 तक सहायता मिलती है।",
+    "keywords": ["wheelchair", "equipment"]
+  },
+
+  {
+    "id": "scheme_016",
+    "scheme_name": "सामर्थ्य विकास योजना",
+    "category": ["divyang"],
+    "target_group": ["दिव्यांग व्यक्ति"],
+    "objective": "दिव्यांगजनों को आत्मनिर्भर बनाना और रोजगार से जोड़ना।",
+    "benefits": {
+      "type": "multi",
+      "amount": "variable",
+      "description": "उपकरण, प्रशिक्षण, रोजगार सहायता"
+    },
+    "eligibility": [
+      "पात्र दिव्यांगजन"
+    ],
+    "documents": [
+      "दिव्यांग प्रमाण पत्र",
+      "आधार कार्ड"
+    ],
+    "application_process": {
+      "mode": "offline",
+      "steps": [
+        "जिला पुनर्वास केंद्र में आवेदन करें"
+      ]
+    },
+    "short_answer": "इस योजना में दिव्यांगजनों को प्रशिक्षण, उपकरण और रोजगार सहायता दी जाती है।",
+    "keywords": ["employment", "training"]
+  }
+]

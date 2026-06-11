@@ -1,0 +1,267 @@
+{
+  "id": "cg_scheme_001",
+
+  "meta": {
+    "state": "Chhattisgarh",
+    "scheme_level": "state",
+    "department": "Social Welfare Department",
+    "category": "divyang_pension",
+    "priority": 1,
+    "last_updated": "2026-01-01",
+    "source": "CG Social Welfare Department"
+  },
+
+  "scheme_name": {
+    "hi": "सामाजिक सुरक्षा दिव्यांग पेंशन योजना",
+    "en": "Social Security Disability Pension Scheme",
+    "hinglish": "Samajik Suraksha Divyang Pension Yojana"
+  },
+
+  "content": {
+    "objective": {
+      "hi": "गरीबी रेखा के नीचे जीवन यापन करने वाले दिव्यांग एवं बौने व्यक्तियों को आर्थिक सहायता प्रदान कर सम्मानपूर्वक जीवन-यापन में सहयोग करना।",
+      "en": "To provide financial assistance to disabled and dwarf persons living below the poverty line for a dignified life.",
+      "hinglish": "BPL divyang aur bone log ko financial help dena taki wo respect ke saath jee sake"
+    },
+
+    "benefits": {
+      "type": "monthly",
+      "amount": 500,
+      "text": {
+        "hi": "₹500 प्रति माह पेंशन दी जाती है।",
+        "en": "₹500 per month pension is provided.",
+        "hinglish": "₹500 per month pension milta hai"
+      }
+    },
+
+    "eligibility": {
+      "rules": [
+        {
+          "id": "residence",
+          "text": {
+            "hi": "आवेदक छत्तीसगढ़ का मूल निवासी होना चाहिए",
+            "en": "Applicant must be a resident of Chhattisgarh",
+            "hinglish": "CG ka resident hona chahiye"
+          }
+        },
+        {
+          "id": "target_group",
+          "text": {
+            "hi": "दिव्यांग एवं बौने व्यक्ति पात्र हैं",
+            "en": "Disabled and dwarf persons are eligible",
+            "hinglish": "divyang aur bone log eligible hain"
+          }
+        },
+        {
+          "id": "age",
+          "text": {
+            "hi": "6 से 17 वर्ष आयु वर्ग के दिव्यांग बच्चे पात्र हैं",
+            "en": "Disabled children aged 6-17 are eligible",
+            "hinglish": "6-17 age ke divyang bachche eligible hain"
+          }
+        },
+        {
+          "id": "school_condition",
+          "text": {
+            "hi": "6-14 वर्ष के जो बच्चे अध्ययनरत नहीं हैं वे पात्र नहीं हैं",
+            "en": "Children aged 6-14 not studying are not eligible",
+            "hinglish": "6-14 ke jo school nahi ja rahe wo eligible nahi"
+          }
+        }
+      ]
+    },
+
+    "documents": [
+      {
+        "hi": "सर्वे सूची प्रमाण पत्र",
+        "en": "Survey list certificate",
+        "hinglish": "survey certificate"
+      },
+      {
+        "hi": "आधार कार्ड",
+        "en": "Aadhaar card",
+        "hinglish": "aadhaar card"
+      },
+      {
+        "hi": "बैंक पासबुक की प्रति",
+        "en": "Bank passbook copy",
+        "hinglish": "bank passbook copy"
+      },
+      {
+        "hi": "निवास प्रमाण पत्र",
+        "en": "Residence certificate",
+        "hinglish": "residence proof"
+      },
+      {
+        "hi": "मोबाइल नंबर",
+        "en": "Mobile number",
+        "hinglish": "mobile number"
+      },
+      {
+        "hi": "निर्धारित आवेदन पत्र",
+        "en": "Prescribed application form",
+        "hinglish": "application form"
+      }
+    ],
+
+    "application": {
+      "mode": "offline",
+
+      "steps": [
+        {
+          "hi": "निर्धारित प्रारूप में आवेदन फॉर्म भरें",
+          "en": "Fill the prescribed application form",
+          "hinglish": "form fill karo"
+        },
+        {
+          "hi": "ग्रामीण क्षेत्र में ग्राम पंचायत में आवेदन जमा करें",
+          "en": "Submit in Gram Panchayat (rural areas)",
+          "hinglish": "gaon me gram panchayat me jama karo"
+        },
+        {
+          "hi": "शहरी क्षेत्र में पार्षद के माध्यम से नगर निगम / नगर पालिका में जमा करें",
+          "en": "Submit through councillor in municipal office",
+          "hinglish": "city me nagar nigam me jama karo"
+        }
+      ],
+
+      "locations": [
+        {
+          "hi": "ग्राम पंचायत",
+          "en": "Gram Panchayat",
+          "hinglish": "gram panchayat"
+        },
+        {
+          "hi": "जनपद पंचायत",
+          "en": "Janpad Panchayat",
+          "hinglish": "janpad panchayat"
+        },
+        {
+          "hi": "नगर निगम / नगर पालिका",
+          "en": "Municipal Office",
+          "hinglish": "nagar nigam"
+        }
+      ]
+    },
+
+    "process_flow": [
+      {
+        "hi": "ग्राम पंचायत आवेदन को जनपद पंचायत को अग्रेषित करती है",
+        "en": "Gram Panchayat forwards application to Janpad Panchayat",
+        "hinglish": "gram panchayat se janpad panchayat forward hota hai"
+      },
+      {
+        "hi": "शहरी क्षेत्रों में आवेदन नगर निगम में जमा किया जाता है",
+        "en": "In urban areas, application is submitted to municipal office",
+        "hinglish": "city me nagar nigam me submit hota hai"
+      }
+    ],
+
+    "faq": [
+      {
+        "question": {
+          "hi": "पेंशन कितनी मिलती है?",
+          "en": "How much pension is given?",
+          "hinglish": "pension kitni milti hai"
+        },
+        "answer": {
+          "hi": "इस योजना के तहत ₹500 प्रति माह पेंशन दी जाती है।",
+          "en": "₹500 per month pension is provided.",
+          "hinglish": "₹500 per month pension milta hai"
+        }
+      },
+      {
+        "question": {
+          "hi": "आवेदन कहाँ करना है?",
+          "en": "Where to apply?",
+          "hinglish": "kaha apply kare"
+        },
+        "answer": {
+          "hi": "ग्राम पंचायत या नगर निकाय में आवेदन जमा किया जाता है।",
+          "en": "Apply at Gram Panchayat or Municipal office.",
+          "hinglish": "panchayat ya nagar nigam me apply karo"
+        }
+      }
+    ],
+
+    "short_answer": {
+      "hi": "इस योजना में दिव्यांग व्यक्तियों को ₹500 प्रति माह पेंशन दी जाती है।",
+      "en": "₹500 monthly pension is given to disabled persons.",
+      "hinglish": "divyang ko ₹500 per month pension milta hai"
+    }
+  },
+
+  "nlp": {
+    "scheme_identity_keywords": [
+        "सामाजिक सुरक्षा पेंशन",
+        "दिव्यांग पेंशन",
+        "विकलांग पेंशन",
+        "छत्तीसगढ़ दिव्यांग पेंशन",
+        "500 रुपए पेंशन",
+        "दिव्यांग सहायता योजना",
+        "samajik suraksha pension",
+        "divyang pension cg",
+        "viklang pension cg",
+        "penson yojna cg",
+        "viklaang pansan"
+    ],
+
+    "keywords": [
+      "दिव्यांग पेंशन",
+      "विकलांग पेंशन",
+      "छत्तीसगढ़ पेंशन",
+      "500 रुपए पेंशन",
+      "pension kitni",
+      "divyang pension cg",
+      "viklang pension",
+      "cg disability pension",
+      "pension kaise milega",
+      "apply pension cg",
+      "form kaha milega",
+      "penson",
+      "penshan",
+      "pansan",
+      "yojana kya hai",
+      "cg pension scheme",
+      "divyang yojana cg"
+    ],
+
+    "synonyms": {
+      "divyang": ["viklang", "disabled", "handicap"],
+      "pension": ["paise", "arthik madad", "sahayata"]
+    },
+
+    "intents": [
+      {
+        "name": "benefits",
+        "keywords": ["kitna paisa", "कितना पैसा", "pension kitni"],
+        "response": "content.benefits.text"
+      },
+      {
+        "name": "eligibility",
+        "keywords": ["kaun eligible", "कौन पात्र", "rules kya hai"],
+        "response": "content.eligibility.rules"
+      },
+      {
+        "name": "documents",
+        "keywords": ["documents kya", "कागज क्या लगेगा"],
+        "response": "content.documents"
+      },
+      {
+        "name": "apply",
+        "keywords": ["kaise apply kare", "कैसे आवेदन करें"],
+        "response": "content.application.steps"
+      },
+      {
+        "name": "where",
+        "keywords": ["kaha jana hai", "कहाँ जाना है"],
+        "response": "content.application.locations"
+      },
+      {
+        "name": "general",
+        "keywords": ["yojana kya hai", "details batao"],
+        "response": "content.short_answer"
+      }
+    ]
+  }
+}
